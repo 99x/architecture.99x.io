@@ -4,6 +4,7 @@
   "view": "browser",
   "template": "docusaurus",
   "container": {
-    "node": "14"
+    "node": "14",
+    "port": 3000
   }
 }
