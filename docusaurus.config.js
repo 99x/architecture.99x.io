@@ -6,15 +6,15 @@ module.exports = {
   baseUrl: "/architecture.99x.io/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/99x.logo.png",
   organizationName: "99x", // Usually your GitHub org/user name.
   projectName: "architecture.99x.io", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Architecture at 99X",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg"
+        alt: "99x",
+        src: "img/99x.logo.png"
       },
       items: [
         {
@@ -38,12 +38,20 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Style Guide",
+              label: "Why Architecture?",
               to: "docs/"
             },
             {
-              label: "Second Doc",
-              to: "docs/doc2/"
+              label: "Role of the Architect",
+              to: "docs/role-of-architect/"
+            },
+            {
+              label: "Our Process",
+              to: "docs/our-process/product-architecture"
+            },
+            {
+              label: "Focus Areas",
+              to: "docs/focus-areas/web-application"
             }
           ]
         },
@@ -51,16 +59,16 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus"
+              label: "Linkedin",
+              href: "https://www.linkedin.com/company/99xio"
             },
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus"
+              href: "https://www.facebook.com/99xio"
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus"
+              href: "https://twitter.com/99x_io"
             }
           ]
         },
@@ -69,16 +77,16 @@ module.exports = {
           items: [
             {
               label: "Blog",
-              to: "blog"
+              href: "https://medium.com/99xtechnology "
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus"
+              href: "https://github.com/99x"
             }
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} 99x All Rights Reserved`
     }
   },
   presets: [
@@ -88,13 +96,13 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/master/website/"
+          editUrl: "https://github.com/99x/architecture.99x.io/edit/master/website/"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+            "https://github.com/99x/architecture.99x.io/edit/master/website/blog/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
