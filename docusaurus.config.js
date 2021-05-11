@@ -3,7 +3,7 @@ module.exports = {
   title: "Architecture at 99X",
   tagline: "Creating impactful digital products",
   url: "https://architecture.99x.io",
-  baseUrl: "/architecture.99x.io/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/99x.logo.png",
