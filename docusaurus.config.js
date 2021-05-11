@@ -52,6 +52,10 @@ module.exports = {
             {
               label: "Focus Areas",
               to: "docs/focus-areas/web-application"
+            },
+            {
+              label: "Case Studies",
+              to: "docs/case-studies/design-system"
             }
           ]
         },

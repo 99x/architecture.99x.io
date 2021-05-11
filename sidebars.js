@@ -23,6 +23,18 @@ module.exports = {
         'focus-areas/devops',
         'focus-areas/secops'
       ]
+    },
+    {
+      type: 'category',
+      label : 'Case Studies',
+      collapsed:true,
+      items : [ 
+        'case-studies/design-system',
+        'case-studies/microservices',
+        'case-studies/microfrontends',
+        'case-studies/serverless',
+        'case-studies/multi-tenancy',
+      ]
     }
   ]
 };

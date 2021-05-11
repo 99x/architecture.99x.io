@@ -1,0 +1,4 @@
+---
+id: microfrontends
+title: Microfrontends
+---
