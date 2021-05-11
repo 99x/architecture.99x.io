@@ -2,13 +2,13 @@
 module.exports = {
   title: "Architecture at 99X",
   tagline: "Creating impactful digital products",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://architecture.99x.io",
+  baseUrl: "/architecture.99x.io/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "99x", // Usually your GitHub org/user name.
+  projectName: "architecture.99x.io", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Architecture at 99X",
@@ -25,7 +25,7 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/99x/architecture.99x.io",
           label: "GitHub",
           position: "right"
         }
