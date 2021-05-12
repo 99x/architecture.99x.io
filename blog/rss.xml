@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Architecture at 99X Blog</title>
+        <title>Architecture at 99x Blog</title>
         <link>https://architecture.99x.io/blog</link>
-        <description>Architecture at 99X Blog</description>
+        <description>Architecture at 99x Blog</description>
         <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
