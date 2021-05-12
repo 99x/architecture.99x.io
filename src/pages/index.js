@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Our Process',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       Working with more than 150 software products, we have continuously improved the way we approach architecture. This section shares these practices, which will tailor-made for distributed/remote teams.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Focus Areas',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Modern architectural practices go well beyond the boundaries of quality attributes, code, and infrastructure. Today we talk about DX, DevOps, SecOps, Testability, Continous Quality &, etc.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Case Studies',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Different case studies, working with Design Systems, Microservices, Microfrontends, Serverless, Multi-Tenancy, Cloud Architecture.
       </>
     ),
   },
