@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Architecture at 99X",
+  title: "Architecture at 99x",
   tagline: "Creating impactful digital products",
   url: "https://architecture.99x.io",
   baseUrl: "/",
@@ -11,19 +11,19 @@ module.exports = {
   projectName: "architecture.99x.io", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Architecture at 99X",
+      title: "Architecture at ",
       logo: {
         alt: "99x",
-        src: "img/99x.logo.png"
+        src: "img/99x-logo.svg"
       },
       items: [
         {
           to: "docs/",
           activeBasePath: "docs",
           label: "Docs",
-          position: "left"
+          position: "right"
         },
-        { to: "blog", label: "Blog", position: "left" },
+        { to: "blog", label: "Blog", position: "right" },
         {
           href: "https://github.com/99x/architecture.99x.io",
           label: "GitHub",

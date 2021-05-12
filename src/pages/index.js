@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Our Process',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/Process.svg',
     description: (
       <>
        Working with more than 150 software products, we have continuously improved the way we approach architecture. This section shares these practices, which will tailor-made for distributed/remote teams.
@@ -18,7 +18,7 @@ const features = [
   },
   {
     title: 'Focus Areas',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/Focus.svg',
     description: (
       <>
         Modern architectural practices go well beyond the boundaries of quality attributes, code, and infrastructure. Today we talk about DX, DevOps, SecOps, Testability, Continous Quality &, etc.
@@ -27,7 +27,7 @@ const features = [
   },
   {
     title: 'Case Studies',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/Demanding.svg',
     description: (
       <>
         Different case studies, working with Design Systems, Microservices, Microfrontends, Serverless, Multi-Tenancy, Cloud Architecture.
@@ -40,6 +40,7 @@ function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
+      <div className="cardNew">
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -47,6 +48,7 @@ function Feature({imageUrl, title, description}) {
       )}
       <h3>{title}</h3>
       <p>{description}</p>
+      </div>
     </div>
   );
 }
@@ -65,7 +67,7 @@ export default function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--secondary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
