@@ -8,6 +8,7 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #331c7a;
+  --ifm-color-secondary: #FF5655;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
@@ -22,4 +23,83 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+.navbar{
+  background: var(--ifm-color-primary);
+  color: #ffffff;
+  justify-content: center;
+}
+.navbar__inner{
+  max-width: 1320px;
+}
+.navbar__link,.navbar__link:hover,.navbar__link:focus{
+  color: #ffffff;
+}
+.navbar__brand{
+  color: #ffffff;
+  flex-direction: row-reverse;
+}
+.navbar__logo{
+  margin: 0 0.5rem;
+}
+
+.hero--primary{
+  background: rgba(105,84,250,0.06);
+}
+.hero__title{
+  margin-bottom: 5px;
+}
+.hero__title,.hero__subtitle{
+  color: var(--ifm-color-primary);
+}
+
+.button{
+  border-radius: 50px;
+  padding: 14px 48px;
+}
+.button.button--secondary{
+  color: #ffffff;
+}
+.button.button--secondary:hover,.button.button--secondary:focus{
+  background-color: #FF5655;
+}
+
+.react-toggle-track{
+  background-color: var(--ifm-color-secondary) !important;
+}
+.react-toggle-thumb{
+  border-color: #ffffff;
+}
+.footer{
+  background-color: var(--ifm-color-primary);
+  padding-top: 90px;
+}
+.footer__link-item{
+  color: #99A1B2;
+  text-decoration: none !important;
+}
+.footer__link-item:hover, .footer__link-item:focus{
+  color: #FF5655;
+}
+.footer__copyright{
+  color: #ffffff;
+  font-size: 12px;
+}
+.footer__links{
+  margin-bottom: 60px;
+}
+.footer__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.features_src-pages-{
+  padding: 100px 0 !important;
+  text-align: center;
+  color: var(--ifm-color-primary);
+}
+.features_src-pages- .cardNew{
+  background-color: #E6E8EC;
+  padding: 25px 15px;
+  min-height: 440px;
 }
