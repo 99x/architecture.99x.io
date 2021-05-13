@@ -23,7 +23,7 @@ module.exports = {
           label: "Docs",
           position: "right"
         },
-        { to: "docs/doc1", label: "Contribute", position: "right" },
+        { to: "blog", label: "Blog", position: "right" },
         {
           href: "https://github.com/99x/architecture.99x.io",
           label: "GitHub",
@@ -92,13 +92,13 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/99x/architecture.99x.io/edit/master/"
+          editUrl: "https://github.com/99x/architecture.99x.io/edit/master/website/"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/99x/architecture.99x.io/edit/master/blog/"
+            "https://github.com/99x/architecture.99x.io/edit/master/website/blog/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
