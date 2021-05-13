@@ -100,13 +100,13 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/99x/architecture.99x.io/edit/master/website/"
+          editUrl: "https://github.com/99x/architecture.99x.io/edit/master/"
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/99x/architecture.99x.io/edit/master/website/blog/"
+            "https://github.com/99x/architecture.99x.io/edit/master/blog/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
