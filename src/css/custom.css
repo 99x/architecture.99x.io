@@ -43,8 +43,8 @@
   margin: 0 0.5rem;
 }
 
-.hero--primary{
-  background: rgba(105,84,250,0.06);
+.hero--primary,.navbar-sidebar__brand{
+  background: var(--ifm-color-primary);
 }
 .hero__title{
   margin-bottom: 5px;
@@ -107,4 +107,5 @@
   background-color: #E6E8EC;
   padding: 25px 15px;
   min-height: 440px;
+  margin-bottom: 20px;
 }
