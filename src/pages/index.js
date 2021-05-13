@@ -9,34 +9,31 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Our Process',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/Process.svg',
     redirectUrl : 'docs/our-process/product-architecture',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       Working with more than 150 software products, we have continuously improved the way we approach architecture. This section shares these practices, which will tailor-made for distributed/remote teams.
       </>
     ),
   },
   {
     title: 'Focus Areas',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/Focus.svg',
     redirectUrl : 'docs/focus-areas/web-application',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Modern architectural practices go well beyond the boundaries of quality attributes, code, and infrastructure. Today we talk about DX, DevOps, SecOps, Testability, Continous Quality &, etc.
       </>
     ),
   },
   {
     title: 'Case Studies',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/Demanding.svg',
     redirectUrl : 'docs/case-studies/design-system',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Different case studies, working with Design Systems, Microservices, Microfrontends, Serverless, Multi-Tenancy, Cloud Architecture.
       </>
     ),
   },
@@ -46,18 +43,19 @@ function Feature({imageUrl, title, description, redirectUrl}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
-        <Link
+      <Link
           className={styles.featureCard}
           to={useBaseUrl(redirectUrl)}>
-          {imgUrl && (
+          <div className="cardNew">
+            {imgUrl && (
               <div className="text--center">
                 <img className={styles.featureImage} src={imgUrl} alt={title} />
               </div>
             )}
           <h3>{title}</h3>
           <p>{description}</p>
-        </Link>
-            
+          </div>
+      </Link>
     </div>
    
   );
@@ -77,7 +75,7 @@ export default function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--secondary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
