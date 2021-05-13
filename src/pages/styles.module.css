@@ -29,9 +29,13 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  text-decoration: none;
 }
 
 .featureImage {
   height: 200px;
   width: 200px;
 }
+
+.featureCard{}
+.featureCard:hover { text-decoration: none; } 

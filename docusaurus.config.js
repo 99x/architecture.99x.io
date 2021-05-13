@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/99x.logo.png",
+  favicon: "img/favicon.ico",
   organizationName: "99x", // Usually your GitHub org/user name.
   projectName: "architecture.99x.io", // Usually your repo name.
   themeConfig: {
@@ -21,9 +21,8 @@ module.exports = {
           to: "docs/",
           activeBasePath: "docs",
           label: "Docs",
-          position: "left"
+          position: "right"
         },
-        { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/99x/architecture.99x.io",
           label: "GitHub",
@@ -35,7 +34,7 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Learn",
           items: [
             {
               label: "Why Architecture?",
@@ -45,18 +44,6 @@ module.exports = {
               label: "Role of the Architect",
               to: "docs/role-of-architect/"
             },
-            {
-              label: "Our Process",
-              to: "docs/our-process/product-architecture"
-            },
-            {
-              label: "Focus Areas",
-              to: "docs/focus-areas/web-application"
-            },
-            {
-              label: "Case Studies",
-              to: "docs/case-studies/design-system"
-            }
           ]
         },
         {
@@ -86,7 +73,11 @@ module.exports = {
             {
               label: "GitHub",
               href: "https://github.com/99x"
-            }
+            },
+            { 
+              label: "Contribute",
+              href: "docs/doc1",
+            },
           ]
         }
       ],
