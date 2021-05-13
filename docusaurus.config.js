@@ -23,7 +23,7 @@ module.exports = {
           label: "Docs",
           position: "right"
         },
-        { to: "blog", label: "Blog", position: "right" },
+        { to: "docs/doc1", label: "Contribute", position: "right" },
         {
           href: "https://github.com/99x/architecture.99x.io",
           label: "GitHub",
