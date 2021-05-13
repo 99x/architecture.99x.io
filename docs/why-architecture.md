@@ -12,7 +12,7 @@ However, while the database may no longer be considered a significant decision, 
 
 Although we can’t necessarily make “significant decisions” disappear, we can use a number of different tactics (such as architectural layering, in the previous example) to change what those significant decisions are. There’s also no explicit line between the decisions that should be deemed as significant, and those that shouldn’t. Having said that, the significant decisions are usually related to key technology choices (e.g. programming languages and frameworks) and the overall structure (monolithic deployment unit vs microservices). Aspects such as “tabs vs whitespaces”, or “curly braces on same line vs the next line”, are definitely not architecturally significant! Everything else will fall in between somewhere between these two extremes. Part of the process of architecting a software system is about understanding what is significant and why, given the context you’re working in.
 
-# Is software architecture important?
+## Is software architecture important?
 Now that we understand what software architecture is, we should wrap up this chapter by looking at the importance of software architecture. The past decade or so has seen a huge shift in the way that we build software, thanks to movements such as agile, lean, software craftsmanship, continuous delivery, DevOps, the cloud and more. Together these new approaches help us to build better software that better meets the needs of the business, while carefully managing time and budgetary constraints. But there’s still more we can do because even a small amount of software architecture can help prevent many of the problems that projects face.
 
 As we've already mentioned, successful software projects aren’t just about focussing on good code. Ask yourself the following questions:
@@ -28,7 +28,7 @@ It is possible to successfully deliver a software project by answering “no” 
 
 Other side effects of a team that focusses too much on the code include the software system being too slow, insecure, fragile, unstable, hard to deploy, hard to maintain, hard to change, hard to extend, etc. Although most software projects and products start with the best of intentions, it’s easy for them to veer off track without an appropriate amount of technical leadership; both at the code level and above it. These seemingly chaotic software projects do exist in the real-world, and most of us will have one or more horror stories about the time we spent working on them. If you’ve never worked on such a project, you’re probably in the lucky minority!
 
-# The benefits of software architecture
+## The benefits of software architecture
 Thankfully, most of these problems are relatively easy to solve with the application of some good technical leadership, resulting in a team that therefore understands and thinks about software architecture. In summary, this can provide:
 
 - A clear vision and roadmap for the team to follow, regardless of whether that vision is owned by a single person or collectively by the whole team.
@@ -39,7 +39,7 @@ Thankfully, most of these problems are relatively easy to solve with the applica
 - A set of firm foundations for the product being built.
 - A structure with which to communicate the solution at different levels of abstraction to different audiences.
 
-# Does every software project need software architecture?
+## Does every software project need software architecture?
 Rather than use the typical consulting answer of “it depends”, we would say the answer is undoubtedly “yes”. The caveat here is that every software team should look at a number of factors in order to assess how much software architecture thinking, a degree of which manifests itself as up front design, is necessary. These include the size of the project/product, the complexity of the project/product, the size of the team and the experience of the team.
 
 Historically we’ve seen a tendency towards too much up front design, with teams trying to answer all of the questions and solve all of the problems before writing a single line of code. More recently, We’ve witnessed a trend towards the other extreme, and too little up front design. As Dave Thomas once said:
@@ -48,5 +48,5 @@ Big design up front is dumb. Doing no design up front is even dumber.
 
 As with many things in life, there is a sweet spot here awaiting discovery. The answer to how much is “enough” up front design and technical leadership requires experience and common sense.
 
-# Reference
+## Reference
 [Book: Technical Leadership and the Balance in Agility](https://leanpub.com/software-architecture-for-developers/read#leanpub-auto-what-is-software-architecture)
