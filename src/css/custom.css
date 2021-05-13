@@ -52,6 +52,11 @@
 .hero__title,.hero__subtitle{
   color: var(--ifm-color-primary);
 }
+.heroBanner_src-pages-{
+  background-image: url('../../static/img/home-banner.jpg');
+  background-position: center center;
+  background-size: cover;
+}
 
 .button{
   border-radius: 50px;
