@@ -87,7 +87,7 @@ export default function Home() {
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
-            <div className="container">
+            <div className="container py-100 text-center text-primary">
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
