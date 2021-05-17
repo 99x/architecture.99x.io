@@ -69,7 +69,7 @@ module.exports = {
           items: [
             {
               label: "Blog",
-              href: "https://medium.com/99xtechnology "
+              href: "https://engineering.99x.io"
             },
             {
               label: "GitHub",
