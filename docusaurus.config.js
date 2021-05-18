@@ -14,6 +14,7 @@ module.exports = {
       apiKey: '15b34a8386e5f98870844b8072edbfef',
       indexName: 'architecture.99x.io',
       contextualSearch: true,
+      appId: 'NWNMUDNUSK',
       searchParameters: {},
     },
     navbar: {
