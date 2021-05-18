@@ -10,13 +10,6 @@ module.exports = {
   organizationName: "99x", // Usually your GitHub org/user name.
   projectName: "architecture.99x.io", // Usually your repo name.
   themeConfig: {
-     algolia: {
-      apiKey: '15b34a8386e5f98870844b8072edbfef',
-      indexName: 'architecture.99x.io',
-      contextualSearch: true,
-      appId: 'NWNMUDNUSK',
-      searchParameters: {},
-    },
     navbar: {
       title: "Architecture at ",
       logo: {
