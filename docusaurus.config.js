@@ -20,13 +20,12 @@ module.exports = {
         {
           to: "docs/",
           activeBasePath: "docs",
-          label: "Docs",
+          label: "Knowlege Base",
           position: "right"
         },
-        { to: "blog", label: "Blog", position: "right" },
         {
           href: "https://github.com/99x/architecture.99x.io",
-          label: "GitHub",
+          label: "Contribute",
           position: "right"
         }
       ]
