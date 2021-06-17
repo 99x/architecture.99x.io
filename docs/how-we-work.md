@@ -1,6 +1,7 @@
 ---
 id: how-we-work
 title: How we work
+slug: /
 ---
 
 Although this sounds relatively straightforward, we, as software professionals, have a degree of influence over those architecturally significant decisions. Imagine you’re building a simple server-side web application to deliver information to users, and that information is stored in a relational database. For the sake of this discussion, let’s say there are no complex requirements related to security, performance or scalability, and that the database is simply being used for data storage. Let’s also ignore non-relational (e.g. NoSQL) databases.
