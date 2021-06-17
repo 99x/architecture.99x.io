@@ -37,12 +37,8 @@ module.exports = {
           title: "Learn",
           items: [
             {
-              label: "Why Architecture?",
-              to: "docs/"
-            },
-            {
               label: "How we work",
-              to: "docs/how-we-work"
+              to: "docs/"
             },
           ]
         },
