@@ -2,6 +2,7 @@ module.exports = {
   docs: [
     'how-we-work',
     'architecting-new-products',
+    'managing-the-debt',
     {
         type: 'category',
         label : 'Our Process',

@@ -41,8 +41,8 @@ module.exports = {
               to: "docs/"
             },
             {
-              label: "Role of the Architect",
-              to: "docs/role-of-architect/"
+              label: "How we work",
+              to: "docs/how-we-work/"
             },
           ]
         },
