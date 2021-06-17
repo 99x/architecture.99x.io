@@ -42,7 +42,7 @@ module.exports = {
             },
             {
               label: "How we work",
-              to: "docs/how-we-work/"
+              to: "docs/how-we-work"
             },
           ]
         },
@@ -76,7 +76,7 @@ module.exports = {
             },
             { 
               label: "Contribute",
-              href: "docs/doc1",
+              href: "https://github.com/99x/architecture.99x.io",
             },
           ]
         }
