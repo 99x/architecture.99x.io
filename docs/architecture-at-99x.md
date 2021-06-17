@@ -1,13 +1,14 @@
 ---
 id: architecture-at-99x
 title: Architecture at 99x
+slug: /
 ---
 
 99X is specialized in building software products and platforms for more than a decade now. During the period we have gathered an immense level of knowledge when it comes to architecting software products and platforms. This knowledge base is an attempt to share that knowledge for the benefit of others.
 
  
 
-####Why Architecture?
+Why Architecture?
 Let's me put things into perspective. As we all know architecture is important for any software product. We typically call it the structure of structures.
 
  
@@ -20,7 +21,7 @@ That's why the architecture decisions need to be well thought of. Besides these 
 
  
 
-####The Challenge for Architects
+The Challenge for Architects
 As you can see, Architects have to take these decisions one way or the other. And at this level, no right or wrong decision exists. So the architects need to be savvy with experience to find their way through to take these decisions for the best interest of the software product at hand.
 
  

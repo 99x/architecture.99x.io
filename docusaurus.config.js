@@ -37,7 +37,7 @@ module.exports = {
           title: "Learn",
           items: [
             {
-              label: "How we work",
+              label: "Architecture at 99x",
               to: "docs/"
             },
           ]
