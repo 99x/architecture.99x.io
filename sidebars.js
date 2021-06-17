@@ -1,5 +1,6 @@
 module.exports = {
   docs: [
+    'architecture-at-99x',
     'how-we-work',
     'architecting-new-products',
     'managing-the-debt',
