@@ -1,7 +1,7 @@
 module.exports = {
   docs: [
-    'why-architecture',
-    'role-of-architect',
+    'how-we-work',
+    'architecting-new-products',
     {
         type: 'category',
         label : 'Our Process',

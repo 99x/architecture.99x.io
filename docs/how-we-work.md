@@ -1,6 +1,6 @@
 ---
-id: why-architecture
-title: Why Architecture?
+id: how-we-work
+title: How we work
 slug: /
 ---
 
