@@ -5,6 +5,14 @@ module.exports = {
     'architecting-new-products',
     'managing-the-debt',
     {
+      type: 'category',
+      label: 'Architecture Health',
+      collapsed: true,
+      items: [
+        'architecture-health/health-overview'
+      ]
+    },
+    {
         type: 'category',
         label : 'Our Process',
         collapsed:true,

@@ -8,7 +8,7 @@ slug: /
 
  
 
-Why Architecture?
+### Why Architecture?
 Let's me put things into perspective. As we all know architecture is important for any software product. We typically call it the structure of structures.
 
  
@@ -21,7 +21,7 @@ That's why the architecture decisions need to be well thought of. Besides these 
 
  
 
-The Challenge for Architects
+### The Challenge for Architects
 As you can see, Architects have to take these decisions one way or the other. And at this level, no right or wrong decision exists. So the architects need to be savvy with experience to find their way through to take these decisions for the best interest of the software product at hand.
 
  
@@ -38,7 +38,7 @@ And one of the main challenges with software products is that things change over
 
  
 
-####Establishing the Processes
+### Establishing the Processes
 This is where organizations need to establish processes not only at the inception of a project but also to keep track of the product architecture drift.
 
  
