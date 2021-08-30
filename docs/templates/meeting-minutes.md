@@ -1,5 +1,5 @@
 ---
-id: meeting-minutes
+id: meeting-minutes 
 title: Meeting Minutes
 ---
 

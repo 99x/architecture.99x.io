@@ -28,7 +28,7 @@ module.exports = {
         label : 'Useful Templates',
         collapsed:true,
         items : [ 
-          'templates/decision-log',
+          'templates/decision-logs',
           'templates/meeting-minutes'
         ]
     },
