@@ -11,11 +11,7 @@ Discussion:
 
 | **Topic** | **Owner** | **Additional Notes** | **Discussion Points** |
 | --- | --- | --- | --- |
-|
- |
- |
- |
- |
+|  |  |  |  |
 
 Additional Notes
 
@@ -26,4 +22,4 @@ Action Items
 
 - This could be links to tasks
 
-[Download this template](./assets/meeting-minutes.docx)
+[Download this template](../assets/meeting-minutes.docx)
