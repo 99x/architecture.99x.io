@@ -2,7 +2,7 @@ module.exports = {
   docs: [
     'architecture-at-99x',
     'how-we-work',
-    'architecting-new-products',
+    '99x-well-architected-framework',
     'managing-the-debt',
     {
       type: 'category',
@@ -23,15 +23,15 @@ module.exports = {
         'architecture-evaluation/external-due-diligence'        
       ]
     },
-    // {
-    //     type: 'category',
-    //     label : 'Our Process',
-    //     collapsed:true,
-    //     items : [ 
-    //       'our-process/product-architecture',
-    //       'our-process/continuous-architecture'
-    //     ]
-    // },
+    {
+        type: 'category',
+        label : 'Useful Templates',
+        collapsed:true,
+        items : [ 
+          'templates/decision-log',
+          'templates/meeting-minutes'
+        ]
+    },
     // {
     //   type: 'category',
     //   label : 'Focus Areas',
