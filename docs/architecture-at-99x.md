@@ -1,6 +1,6 @@
 ---
 id: architecture-at-99x
-title: Product and Platform Architecting at 99x
+title: Architecting at 99x
 slug: /
 ---
 
