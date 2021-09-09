@@ -8,6 +8,7 @@ title: Overview
 A Technical Due Diligence refers to the evaluation of a System based on industry best practices, probable scenarios from the viewpoint of different stakeholders and future expansion plans.
 
 A  typically encompasses review of: 
+- Solution Design
 - Architectural Decisions
   - Requirement decision relationship
 - Agility of the architecture
