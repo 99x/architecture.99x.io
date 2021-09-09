@@ -15,7 +15,17 @@ A  typically encompasses review of:
 - Code and Database Health
 - Security and Privacy
 
-### When 
+### When?
+Based on our experience, a TDD can come in handly in a few situations, namely : 
+-  Beginning a new Software Development partnership
+   - Expansion of an existing system
+   - Modernization of a legacy system
+-   Stakeholder mandated due to system failing to meet targets
+-   Due Diligence as a service
 
 
-### Result
+### Outcome
+- Detailed report about the current state
+- Risks as seen by the reviewing panel
+- Gap analysis
+- Recommendations and Improvements
