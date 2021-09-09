@@ -26,6 +26,9 @@ Based on our experience, a TDD can come in handly in a few situations, namely :
 
 
 ### Outcome
+
+The output will be presented to the relevant stakeholders in the form of a concise report
+
 - Detailed report about the current state
 - Risks as seen by the reviewing panel
 - Gap analysis
