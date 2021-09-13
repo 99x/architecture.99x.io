@@ -1,0 +1,61 @@
+
+
+import  {useState} from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+export default function MeetingMinutesTemplate() {
+  return (
+    <div>
+        <h1>{new Date().toISOString().slice(0,10)} Meeting Notes</h1>
+         <h2>Participants</h2>
+            <ul>
+              <li>John Doe</li>
+              <li>Bob</li>
+              <li>Smith</li>
+            </ul>
+         <h2>Goals</h2>
+            <p>Discuss changes need to do for the dashboard</p>
+         <h2>Discussion topics</h2>
+         <table>
+            <tr>
+              <th>Time</th>
+              <th>Item</th>
+              <th>Presenter</th>
+              <th>Notes</th>
+            </tr>
+            <tr>
+                <td>{new Date().toLocaleTimeString()}</td>
+                <td>Dashboard requirement</td>
+                <td>Smith</td>
+                <td>
+                  <p>Need to list down all the invoices and required following functionalities</p>
+                  <ul>
+                     <li>Sorting</li>
+                     <li>Filtering</li>
+                     <li>Search</li>
+                     <li>Grouping</li>
+                     <li>Pagination</li>
+                     <li>Single row actions</li>
+                     <li>Batch actions by selection</li>
+                     <li>Expandable rows and/or leveled rows (where a row can have children/subrows)</li>
+                  </ul>
+                </td>
+            </tr>
+         </table>
+         <h2>Action items</h2>
+            <ActionItem action={'Research table grid UI component which supports for above features @John Doe'} />
+         <h2>Decisions</h2>
+              <ul>
+                <li>Create decision log with the alternate solutions and find best cost-effective solution</li>
+              </ul>
+    </div>
+  );
+}
+
+export const ActionItem = ({ action} ) => (
+    <div>
+        <input type="checkbox" checked />
+        <label> { action }</label>
+        <br></br><br></br>
+    </div>
+)

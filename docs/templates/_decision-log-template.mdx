@@ -1,0 +1,158 @@
+
+
+import  {useState} from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import AddIconUrl from '@site/static/img/add_icon.png';
+import RemoveIconUrl from '@site/static/img/remove_icon.png';
+
+
+export default function TechnicalDecisionTemplate() {
+  const [bool, setBool] = useState(false);
+  return (
+    <div>
+        <h1>PAR-425: Data Table Grid Component for Angular 8</h1>
+        <table>
+            <tr>
+                <th>Status</th>
+                <td>STARTED</td>
+            </tr>
+             <tr>
+                <th>Impact</th>
+                <td>LOW</td>
+            </tr>
+             <tr>
+                <th>Driver</th>
+                <td>John Doe</td>
+            </tr>
+             <tr>
+                <th>Approver</th>
+                <td>Smith</td>
+            </tr>
+             <tr>
+                <th>Contributors</th>
+                <td>Bob</td>
+            </tr>
+            <tr>
+                <th>Informed</th>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <th>Due date</th>
+                <td>{new Date().toLocaleDateString()}</td>
+            </tr>
+            <tr>
+                <th>Outcome</th>
+                <td>Option 1</td>
+            </tr>
+        </table>
+        <h1>Background</h1>
+        <p>We need tables to be more complex to support filtering, sorting, pagination, search, selecting for batch actions, etc. </p>
+        <p>This decision log is to decide on a suitable data table component for Angular 8. We will be listing all pros and cons of specific components available and any other details below.</p>
+        <h1>Relevant data</h1>
+            <h4>Features needed</h4>
+                <ul>
+                    <li>Pagination</li>
+                    <li>Sorting</li>
+                    <li>Filtering</li>
+                    <li>Search</li>
+                    <li>Batch actions by selection</li>
+                    <li>Single row actions like we have today</li>
+                    <li>Expandable rows and/or leveled rows (where a row can have children/subrows)</li>
+                    <li>Grouping</li>
+                </ul>
+            <h4>Should be supported for Angular 8.1</h4>
+        <h2>Options considered</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>Option 1: Ngx-datatable </th>
+                <th>Option 2: Core UI Component Suite </th>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td style={{verticalAlign: 'top'}}>
+                    <ul>
+                        <li>Free and Open-Source (Stars - 4k)https://github.com/swimlane/ngx-datatable </li>
+                        <li>Last Commit - Jul 15, 2020 (Frequently updated)</li>
+                        <li>MIT license</li>
+                    </ul>
+                </td>
+                <td style={{verticalAlign: 'top'}}>
+                    <ul>
+                        <li>$149 per component - front-end developer (one-time) - update available for a year</li>
+                    </ul>
+                </td>
+            </tr>
+             <tr>
+                <th>Pros and cons</th>
+                <td style={{verticalAlign: 'top'}}>
+                    <AddPros description={'Easy to use'}/>
+                    <AddPros description={'Documentation is available'}/>
+                    <AddPros description={'Free to use'}/>
+                    <AddPros description={'All features available according to requirement above '}/>
+                    <AddPros description={'No external dependencies, flexible and light'}/>
+                    <AddPros description={'Fully customizable in styling'}/>
+                    <AddCons description={'Even though documentation is available it is not as descriptive as some of the others'}/>
+                </td>
+                <td style={{verticalAlign: 'top'}}>
+                    <AddPros description={'Complete UI Suite'}/>
+                    <AddPros description={'Complete coverage of elements and components'}/>
+                    <AddCons description={'Provides basic elements which need to combine to build complex elements. For eg: A rich table will require combining, scrolling, data table, filters and etc'}/>
+                    <AddCons description={'Best fit as a complete UI suite to utilize across the entire application for all the components '}/>
+                    <AddCons description={'Slightly expensive subscription'}/>
+                    <AddCons description={'Already have a custom palette'}/>
+                </td>
+            </tr>
+            <tr>
+                <th>Estimated cost</th>
+                <td>MEDIUM</td>
+                <td>MEDIUM</td>
+            </tr>
+        </table>
+        <h1>Action items</h1>
+            <ActionItem action={'Identify what features are needed'}/>
+            <ActionItem action={'Identify, evaluate and run possible solutions'}/>
+            <ActionItem action={'Discuss with the team architect and take a decision'}/>
+            <ActionItem action={'Discussion with all team members '}/>
+            <ActionItem action={'Inform summary to client and confirm the solution'}/>
+        <h1>Outcome</h1>
+            <p>Option 1: ngx-datable selected to use</p>
+                <ul>
+                    <li>Has the required functionality</li>
+                    <li>Since we already have a UI palette designed by UX designer, we do not need the component suites eliminating the component suite options</li>
+                    <li>Open source</li>
+                    <li>Frequent contributions to the code</li>
+                </ul>
+            <p>Client has confirmed and agreed with the recommendation</p>
+    </div>
+  );
+}
+
+
+export const AddPros = ( { description } ) => (
+    <div>
+        <div style={{ display : '-webkit-inline-box', clear : 'both'}}>
+            <img src={AddIconUrl}  style={{paddingRight: '5px' }}/>
+            <p>{ description }</p>
+        </div>
+        <div style={{ clear : 'both'}}></div>
+    </div>
+)
+
+export const AddCons = ( { description } ) => (
+    <div>
+        <div style={{ display : '-webkit-inline-box', clear : 'both'}}>
+            <img src={RemoveIconUrl}  style={{paddingRight: '5px' }}/>
+            <p>{ description }</p>
+        </div>
+        <div style={{ clear : 'both'}}></div>
+    </div>
+)
+
+export const ActionItem = ({ action} ) => (
+    <div>
+        <input type="checkbox" checked />
+        <label> { action }</label>
+        <br></br>
+    </div>
+)
