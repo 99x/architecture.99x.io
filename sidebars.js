@@ -19,8 +19,7 @@ module.exports = {
       collapsed: true,
       items: [
         'architecture-evaluation/evaluation-overview',
-        'architecture-evaluation/internal-due-diligence',
-        'architecture-evaluation/external-due-diligence'        
+        'architecture-evaluation/due-diligence-process'    
       ]
     },
     {
