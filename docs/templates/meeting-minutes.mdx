@@ -1,0 +1,31 @@
+---
+id: meeting-minutes 
+title: Meeting Minutes
+---
+
+import MeetingMinutesTemplate from './_meeting-minutes-template.mdx'
+import TechnicalDecisionTemplate from './_decision-log-template.mdx'
+
+
+
+<MeetingMinutesIntro/>
+<MeetingMinutesTemplate />
+
+[Download this template](../assets/meeting-minutes.docx)
+
+export const MeetingMinutesIntro = () => (
+    <div>
+        <h1>Purpose</h1>
+        <p>
+            The pupose of this template is to record any meetings related to Architecture or Technology
+        </p>
+        <p>
+            This could be meetings with the PO or CTO of the company or simply with the development team.
+            Most Architectural/Technical concerns brought up here start off as discussion topics, evolve into action items and finally end up as decision logs.
+        </p>
+    </div>
+)
+
+
+
+
