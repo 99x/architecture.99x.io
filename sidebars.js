@@ -15,7 +15,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Architecture Evaluation',
+      label: 'Evaluation',
       collapsed: true,
       items: [
         'architecture-evaluation/evaluation-overview',

@@ -13,8 +13,13 @@ A  typically encompasses review of:
   - Requirement decision relationship
 - Agility of the architecture
 - Risks identified and potential migitation
-- Code and Database Health
 - Security and Privacy
+- Code
+  - Quality
+  - Performance
+- Database
+  - Design
+  - Performance
 
 ### When?
 Based on our experience, a TDD can come in handly in a few situations, namely : 
