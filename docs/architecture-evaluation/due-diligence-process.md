@@ -3,7 +3,7 @@ id: due-diligence-process
 title: Due Diligence Process
 ---
 
-This area will define the process we follow when it comes to performing a Technical Due Diligence (TDD).
+This area will define the process we follow when it comes to performing a Technical Due Diligence (DD).
 
 ## Team Composition
 
@@ -30,9 +30,9 @@ The ideal stakeholder composition would be as follows:
 ## Collaboration
 ### Team Meeting
 
-This would mark the first direct interaction between the Project team and the team. Here, the objective of the TDD would be communicated to the team.
-It is very important that the Project Team understands that the purpose of the TDD would be not to find fault with their efforts over time, but instead, it would be to improve the current solution with helpful feedback and contribution.
-For the TDD to run smoothly there would be some access that would need to be granted to the team. 
+This would mark the first direct interaction between the Project team and the team. Here, the objective of the DD would be communicated to the team.
+It is very important that the Project Team understands that the purpose of the DD would be not to find fault with their efforts over time, but instead, it would be to improve the current solution with helpful feedback and contribution.
+For the DD to run smoothly there would be some access that would need to be granted to the team. 
 For example:  
 •	Codebase
 •	DB schema

@@ -3,7 +3,7 @@ id: evaluation-overview
 title: Overview
 ---
 
-## Technical Due Diligence (TDD)
+## Technical Due Diligence (DD)
 
 A Technical Due Diligence refers to the evaluation of a System based on industry best practices, probable scenarios from the viewpoint of different stakeholders and future expansion plans.
 
@@ -22,7 +22,7 @@ A  typically encompasses review of:
   - Performance
 
 ### When?
-Based on our experience, a TDD can come in handly in a few situations, namely : 
+Based on our experience, a DD can come in handly in a few situations, namely : 
 -  Beginning a new Software Development partnership
    - Expansion of an existing system
    - Modernization of a legacy system
