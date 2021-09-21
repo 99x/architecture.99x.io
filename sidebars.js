@@ -15,12 +15,11 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Architecture Evaluation',
+      label: 'Evaluation',
       collapsed: true,
       items: [
         'architecture-evaluation/evaluation-overview',
-        'architecture-evaluation/internal-due-diligence',
-        'architecture-evaluation/external-due-diligence'        
+        'architecture-evaluation/due-diligence-process'    
       ]
     },
     {
