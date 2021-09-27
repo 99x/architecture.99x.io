@@ -1,36 +1,31 @@
 module.exports = {
   docs: [
     'architecture-at-99x',
-    'how-we-work',
+    'arthitecture-process',
     '99x-well-architected-framework',
-    'managing-the-debt',
     {
       type: 'category',
-      label: 'Architecture Health',
+      label: 'Architecture Assessment',
       collapsed: true,
       items: [
-        'architecture-health/health-overview',
-        'architecture-health/health-checklist'
+        'architecture-assessment/health-review',
+        'architecture-assessment/due-diligence-process',   
+        'architecture-assessment/security-assessment'
       ]
     },
     {
       type: 'category',
-      label: 'Evaluation',
+      label: 'Architecture Artifacts',
       collapsed: true,
       items: [
-        'architecture-evaluation/evaluation-overview',
-        'architecture-evaluation/due-diligence-process'    
+        'templates/introduction',
+        'templates/decision-logs',
+        'templates/meeting-minutes',
+        'templates/health-checklist',
+        'templates/security-checklist',
+        'templates/diagram-samples',
       ]
-    },
-    {
-        type: 'category',
-        label : 'Useful Templates',
-        collapsed:true,
-        items : [ 
-          'templates/decision-logs',
-          'templates/meeting-minutes'
-        ]
-    },
+    }
     // {
     //   type: 'category',
     //   label : 'Focus Areas',
