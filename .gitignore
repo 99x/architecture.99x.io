@@ -21,3 +21,4 @@ yarn-error.log*
 .vs/slnx.sqlite
 .vs/VSWorkspaceState.json
 .vs/architecture.99x.io/v16/.suo
+/.vs
