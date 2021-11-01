@@ -18,7 +18,6 @@ module.exports = {
       label: 'Architecture Artifacts',
       collapsed: true,
       items: [
-        'templates/introduction',
         'templates/decision-logs',
         'templates/meeting-minutes',
         'templates/health-checklist',
