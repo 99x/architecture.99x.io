@@ -17,97 +17,103 @@ title: 99x Well Architected Framework
  ### Business Architecture 
 
   #### Definition
-   ##### Driven by
-   ##### Impacted personals
+   - Driven by
+   - Impacted personals
       
-  ### Strategic reasons
-  ### Key areas
-  ### Quality attributes
+  #### Strategic reasons
+  
+  #### Key areas
+  
+  #### Quality attributes
    - Functional Suitability
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 				
    - Usability 
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Compatibility (Integrations, Extensibility) 
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Productization 
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Provision for Known unknowns
-	□ Overview
-        □ Questions / Guidance
+	Overview
+        Questions / Guidance
 
  ### Product Architecture 
   #### Definition
    - Driven by
    - Impacted personals
   #### Strategic reasons
+  
   #### Key areas
+  
   #### Quality attributes
    - Performance
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Efficiency
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Security
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Privacy
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Reliability (Resilience, fault tolerance, availability)
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Functional stability (bug-free)
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Maintainability
-	□ Overview
-        □ Questions / Guidance
+	Overview
+        Questions / Guidance
 
  ### Infrastructure Architecture 
   #### Definition
    - Driven by
    - Impacted personals
   #### Strategic reasons
+  
   #### Key areas
+  
   #### Quality attributes
    - Cost optimization
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Monitoring
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Security
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Governance (regulations related)
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Availability
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 			
    - Maintainability
-	□ Overview
-        □ Questions / Guidance
+	Overview
+        Questions / Guidance
 
 
  ### Production Architecture 
@@ -115,23 +121,25 @@ title: 99x Well Architected Framework
    - Driven by
    - Impacted personals
   #### Strategic reasons
+  
   #### Key areas
+  
   #### Quality attributes
    - Observability (Incident response, Monitoring, Testing)
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 				
    - Cost Optimization
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 				
    - Troubleshooting
-	□ Overview
-	□ Questions / Guidance
+	Overview
+	Questions / Guidance
 				
    - Governance
-	□ Overview
-        □ Questions / Guidance
+	Overview
+        Questions / Guidance
 
 
 ## Quality Attributes Definitions
@@ -184,7 +192,7 @@ title: 99x Well Architected Framework
    (Ability to record and log the internal state of the system and infrastructure and respond to incidents in an optimal manner.)
 	
   ### Troubleshooting (Supportability?)
-		(The ability to respond and resolve incidents in an efficient manner. Ability of the system to provide information helpful for identifying and resolving issues when it fails (1st line of support to hotfix))
+   (The ability to respond and resolve incidents in an efficient manner. Ability of the system to provide information helpful for identifying and resolving issues when it fails (1st line of support to hotfix))
 
 
 
