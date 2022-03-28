@@ -5,141 +5,142 @@ title: 99x Well Architected Framework
 
 ## Abstract and Introduction
 
- ### Abstract
+### Abstract
 
- ### Introduction
- (Cover definition with problem statement)
+### Introduction
+(Cover definition with problem statement)
 
 ## Architecture process
 
 ## Architecture Views
 
- ### Business Architecture 
+### Business Architecture 
 
-  #### Definition
-   - Driven by
-   - Impacted personals
+#### Definition
+###### Driven by
+###### Impacted personals
       
-  #### Strategic reasons
+#### Strategic reasons
   
-  #### Key areas
+#### Key areas
   
-  #### Quality attributes
-   - Functional Suitability
-	Overview
-	Questions / Guidance
+#### Quality attributes
+##### Functional Suitability
+###### Overview
+###### Questions / Guidance
 				
-   - Usability 
-	Overview
-	Questions / Guidance
+##### Usability 
+###### Overview
+###### Questions / Guidance
 			
-   - Compatibility (Integrations, Extensibility) 
-	Overview
-	Questions / Guidance
+##### Compatibility (Integrations, Extensibility) 
+###### Overview
+###### Questions / Guidance
 			
-   - Productization 
-	Overview
-	Questions / Guidance
+##### Productization 
+###### Overview
+###### Questions / Guidance
 			
-   - Provision for Known unknowns
-	Overview
-        Questions / Guidance
+##### Provision for Known unknowns
+###### Overview
+###### Questions / Guidance
 
- ### Product Architecture 
-  #### Definition
-   - Driven by
-   - Impacted personals
-  #### Strategic reasons
+### Product Architecture 
+#### Definition
+###### Driven by
+###### Impacted personals
+#### Strategic reasons
   
-  #### Key areas
+#### Key areas
   
-  #### Quality attributes
-   - Performance
-	Overview
-	Questions / Guidance
+#### Quality attributes
+##### Performance
+ ###### Overview
+ ###### Questions / Guidance
 			
-   - Efficiency
-	Overview
-	Questions / Guidance
+##### Efficiency
+ ###### Overview
+ ###### Questions / Guidance
 			
-   - Security
-	Overview
-	Questions / Guidance
+##### Security
+ ###### Overview
+ ###### Questions / Guidance
 			
-   - Privacy
-	Overview
-	Questions / Guidance
+##### Privacy
+ ###### Overview
+ ###### Questions / Guidance
 			
-   - Reliability (Resilience, fault tolerance, availability)
-	Overview
-	Questions / Guidance
+##### Reliability (Resilience, fault tolerance, availability)
+ ###### Overview
+ ###### Questions / Guidance
 			
-   - Functional stability (bug-free)
-	Overview
-	Questions / Guidance
+##### Functional stability (bug-free)
+ ###### Overview
+ ###### Questions / Guidance
 			
-   - Maintainability
-	Overview
-        Questions / Guidance
+##### Maintainability
+ ###### Overview
+ ###### Questions / Guidance
 
- ### Infrastructure Architecture 
-  #### Definition
-   - Driven by
-   - Impacted personals
-  #### Strategic reasons
+### Infrastructure Architecture 
+#### Definition
+ ###### Driven by
+ ###### Impacted personals
+#### Strategic reasons
   
-  #### Key areas
+#### Key areas
   
-  #### Quality attributes
-   - Cost optimization
-	Overview
-	Questions / Guidance
+#### Quality attributes
+##### Cost optimization
+ ###### Overview
+ ###### Questions / Guidance
 			
-   - Monitoring
-	Overview
-	Questions / Guidance
+##### Monitoring
+ ###### Overview
+ ###### Questions / Guidance
 			
-   - Security
-	Overview
-	Questions / Guidance
+##### Security
+ ###### Overview
+ ###### Questions / Guidance
 			
-   - Governance (regulations related)
-	Overview
-	Questions / Guidance
+##### Governance (regulations related)
+ ###### Overview
+ ###### Questions / Guidance
 			
-   - Availability
-	Overview
-	Questions / Guidance
+##### Availability
+ ###### Overview
+ ###### Questions / Guidance
 			
-   - Maintainability
-	Overview
-        Questions / Guidance
+##### Maintainability
+ ###### Overview
+ ###### Questions / Guidance
 
 
- ### Production Architecture 
-  #### Definition
-   - Driven by
-   - Impacted personals
-  #### Strategic reasons
+### Production Architecture 
+#### Definition
+##### Driven by
+##### Impacted personals
+
+#### Strategic reasons
   
-  #### Key areas
+#### Key areas
   
-  #### Quality attributes
-   - Observability (Incident response, Monitoring, Testing)
-	Overview
-	Questions / Guidance
+#### Quality attributes
+##### Observability (Incident response, Monitoring, Testing)
+ ###### Overview
+ ###### Questions / Guidance
 				
-   - Cost Optimization
-	Overview
-	Questions / Guidance
+##### Cost Optimization
+ ###### Overview
+ ###### Questions / Guidance
 				
-   - Troubleshooting
-	Overview
-	Questions / Guidance
+##### Troubleshooting
+ ###### Overview
+ ###### Questions / Guidance
 				
-   - Governance
-	Overview
-        Questions / Guidance
+##### Governance
+ ###### Overview
+ ###### Questions / Guidance
 
 
 ## Quality Attributes Definitions
