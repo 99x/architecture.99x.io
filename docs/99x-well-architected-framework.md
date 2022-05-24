@@ -4,11 +4,13 @@ title: 99x Well Architected Framework
 ---
 
 ## Abstract and Introduction
-
 ### Abstract
 
 ### Introduction
-(Cover definition with problem statement)
+This is a framework for building market-winning products. This is going to cover 99X architecture process and how the 99X covers the architectural pillars when building a product.
+
+The business architecture is more prominent before code write. Product architecture is more prominent while the product is in development. Infrastructure architecture is more prominent after code freeze until production. Production architecture is more prominent when the Product is in production.
+
 
 ## Architecture process
 
