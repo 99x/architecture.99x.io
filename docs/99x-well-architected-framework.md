@@ -11,6 +11,10 @@ This is a framework for building market-winning products. This is going to cover
 
 The business architecture is more prominent before code write. Product architecture is more prominent while the product is in development. Infrastructure architecture is more prominent after code freeze until production. Production architecture is more prominent when the Product is in production.
 
+The 99X well architecture framework describes key concepts, design principles, and architectural best practices for designing and developing a product that can run on any platform. By addressing relevant quality attributes, which is specific to each pillars, the stakeholders can clarify almost every gray areas to come up with right architecture style and patterns. 
+
+Further, by answering few fundamental questions lean how to use right architectural style, patterns, and technologies. As well as it will guide to take the right decisions when designing an architecture for a specific requirement. 
+
 
 ## Architecture process
 
