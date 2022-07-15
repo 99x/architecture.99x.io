@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2022-07-01T06:44:35.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="imQJkzMuMpYeTus9q3rp" version="19.0.2" type="github">
+  <diagram id="h699iih6n2bTQgQr6s8Z" name="Page-1">
+    <mxGraphModel dx="1692" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-1" value="&lt;b&gt;Todo App Database&lt;/b&gt;&lt;br&gt;Azure SQL" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="909" y="412" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-3" value="&lt;b&gt;Todo App&lt;/b&gt;&lt;br&gt;App Service" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="10" y="412.5" width="51.5" height="51.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-4" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;dashed=1;fillColor=none;fontFamily=segoe ui;strokeColor=#906EFF;" parent="1" vertex="1">
+          <mxGeometry x="203" y="290" width="567" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;dashed=1;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="243" y="553" width="33.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-7" value="Regional &lt;br&gt;VNET Integration" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="77" y="450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-9" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startArrow=none;fontFamily=segoe ui;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="EmDGkUlhmV_LCRzYMaPS-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48" y="402.75" as="sourcePoint" />
+            <mxPoint x="928" y="402.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="928" y="242.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-10" value="Internet" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.cloud;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="410" width="70" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-11" value="" style="endArrow=block;html=1;rounded=0;endFill=1;exitX=1;exitY=0.691;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.068;entryY=0.521;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=segoe ui;strokeColor=#906EFF;" parent="1" source="EmDGkUlhmV_LCRzYMaPS-10" target="EmDGkUlhmV_LCRzYMaPS-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="438.66" as="sourcePoint" />
+            <mxPoint x="10" y="438.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Close_Icon-128.png;dashed=1;fontColor=#1717FF;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="889" y="232.75" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-15" value="" style="endArrow=none;html=1;rounded=0;endFill=1;fontFamily=segoe ui;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" target="EmDGkUlhmV_LCRzYMaPS-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="400" as="sourcePoint" />
+            <mxPoint x="760" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-16" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;dashed=1;fillColor=none;fontFamily=segoe ui;strokeColor=#906EFF;" parent="1" vertex="1">
+          <mxGeometry x="291" y="354.5" width="116.5" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-17" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;dashed=1;fillColor=none;fontFamily=segoe ui;strokeColor=#906EFF;" parent="1" vertex="1">
+          <mxGeometry x="437.5" y="354.5" width="116.5" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-18" value="" style="endArrow=block;html=1;rounded=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=segoe ui;strokeColor=#906EFF;" parent="1" source="EmDGkUlhmV_LCRzYMaPS-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="649.9999999999998" y="440.16" as="sourcePoint" />
+            <mxPoint x="900" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-19" value="Service &lt;br&gt;Endpoint&lt;br&gt;Connectivity" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="810" y="382.75" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-20" value="App Service Subnet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="287.5" y="523" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-21" value="Database Subnet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="442.5" y="523" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-23" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_endpoint;dashed=1;fontColor=#1717FF;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="472.5" y="430" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-24" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;dashed=1;fontColor=#1717FF;strokeWidth=2;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-376.67" y="284" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-25" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;dashed=1;fontColor=#1717FF;strokeWidth=2;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="420" width="56.67" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-28" value="" style="endArrow=block;html=1;rounded=0;endFill=1;fontSize=12;fontFamily=segoe ui;strokeColor=#906EFF;" parent="1" source="EmDGkUlhmV_LCRzYMaPS-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="440" as="sourcePoint" />
+            <mxPoint x="337" y="440.37939393939394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="339" y="430" width="21" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-30" value="Virtual Network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=segoe ui;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="370" y="570" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-32" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Identity Service&lt;br&gt;&lt;/b&gt;Azure AD B2C&lt;br&gt;&lt;/font&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Azure_AD_B2C.svg;fontColor=#1717FF;strokeWidth=2;fillColor=none;fontFamily=segoe ui;" parent="1" vertex="1">
+          <mxGeometry x="8.800000000000004" y="610" width="53.91" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EmDGkUlhmV_LCRzYMaPS-33" value="" style="endArrow=block;html=1;rounded=0;endFill=1;exitX=1;exitY=0.691;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=segoe ui;strokeColor=#906EFF;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35.46" y="503.9964999999999" as="sourcePoint" />
+            <mxPoint x="35.46" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YvYwSYAwqYffUqF4AIqz-8" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;dashed=1;fillColor=none;fontFamily=segoe ui;strokeColor=#906EFF;" vertex="1" parent="1">
+          <mxGeometry x="610" y="450" width="116.5" height="108.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YvYwSYAwqYffUqF4AIqz-9" value="Bastion Subnet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=segoe ui;" vertex="1" parent="1">
+          <mxGeometry x="620" y="570" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YvYwSYAwqYffUqF4AIqz-11" value="&lt;font face=&quot;segoe ui&quot;&gt;Developer&lt;/font&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="650" y="720" width="47.5" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
