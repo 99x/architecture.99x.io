@@ -81,7 +81,7 @@ This endpoint is defined for creating a customer order. Following are the respon
 
 **Header**
 
-* Authorization : Bearer <auth-token>
+* Authorization : Bearer (auth-token)
 * Content-Type : application/json
 
 
@@ -109,7 +109,7 @@ This endpoint is defined to retrieve all customer orders from the system. Follow
 
 **Header**
 
-* Authorization : Bearer <auth-token>
+* Authorization : Bearer (auth-token)
 * Content-Type : application/json
 
 **Body**
@@ -150,7 +150,7 @@ This endpoint is defined to approve a customer order. Following are the responsi
 
 **Header**
 
-* Authorization : Bearer <auth-token>
+* Authorization : Bearer (auth-token)
 * Content-Type : application/json
 
 **Responses**
