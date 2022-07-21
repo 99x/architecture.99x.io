@@ -71,7 +71,7 @@ Following Layers will be part of the system.
 
   
 ## Create a Customer Order
-**[POST] /api/customer-order**
+**[POST] /api/customer-orders**
 
 This endpoint is defined for creating a customer order. Following are the responsibilities of the endpoint.
 
@@ -102,9 +102,9 @@ This endpoint is defined for creating a customer order. Following are the respon
 
 
 ## List Customer Orders
-**[GET] /api/customer-order**
+**[GET] /api/customer-orders**
 
-This endpoint is defined to retrive all customer orders from the system. Following are the responsibilities of the endpoint.
+This endpoint is defined to retrieve all customer orders from the system. Following are the responsibilities of the endpoint.
 * Return all customer orders from the system sorted by created date
 
 **Header**
@@ -139,7 +139,7 @@ This endpoint is defined to retrive all customer orders from the system. Followi
 - [500 - internal server error] type of response will be returned for internal servers errors with the exception.
 
 ## Approve Order
-**[PATCH] /api/customer-order/{id}/approve**
+**[PATCH] /api/customer-orders/{id}?action=approve**
 
 This endpoint is defined to approve a customer order. Following are the responsibilities of the endpoint.
 
@@ -155,24 +155,6 @@ This endpoint is defined to approve a customer order. Following are the responsi
 
 **Responses**
 - [200 - ok] type response will be returned as a success output together with the modified customer order in the response body.
-- [400 - bad request] type response will be returned with a validation error if the given order no does not exist.
-
-## Delete Order
-**[DELETE] /api/customer-order/{id}**
-
-This endpoint is defined to delete a customer order. Following are the responsibilities of the endpoint.
-
-* Validate if received order no exists in the database.
-* Validate if order is not in "Approved" status.
-* Delete record in the database.
-
-**Header**
-
-* Authorization : Bearer <auth-token>
-* Content-Type : application/json
-
-**Responses**
-- [200 - ok] type response will be returned as a success output.
 - [400 - bad request] type response will be returned with a validation error if the given order no does not exist.
 
 
