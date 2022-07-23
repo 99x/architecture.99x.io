@@ -58,6 +58,15 @@ Further, by answering few fundamental questions lean how to use right architectu
 #### Strategic reasons
   
 #### Key areas
+
+There are 4 key areas in product architecture
+##### System Decompostion
+
+During product architecture, the entire product is normally designed such a way will be decomposed into different layers, componets, services, etc.. based on an agreed decomposition strategy. Systems can be decomposed based execution context, deployment context, business or domain capabilities. Some software architecture styles such as Multi Tier, Micro Services, Event driven and Web queue worker are defined based on these strategies. With these, the system can be planned, developed, deployed and maintained more independent and loosely coupled way.
+
+##### Data
+Every software products deal with data and mainly how and where  data is to be stored and processed need to be analysed. Relational, Documents, key values, graph and time series are some of the data storing patterns. And proper modeling the data storage and isolation tequniques such as normalizations levels, logical partitioning and tenant based isolations are also available. Proper data modeling and isolation leads to more cost frieldy, performant and secure data management in the product.
+
   
 #### Quality attributes
 ##### Performance
