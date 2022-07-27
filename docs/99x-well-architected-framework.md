@@ -23,11 +23,26 @@ Further, by answering few fundamental questions lean how to use right architectu
 ### Business Architecture 
 
 #### Definition
+Business architecture is the blueprint of an organization which shows how the organization is structured. According to the business architecture working group of the Open Management Group (OMG), business architecture is a 
+"a blueprint of the enterprise that provides a common understanding of the organization and is used to align strategic objectives and tactical demands."
+Business architecture shows how elements of an organization such as the language used (information), the structure of the business (organization), what is it does (Capabilities) and how it delivers (Process) fit together. The relationship between these elements specifies what the organization does and what needs to be done to meet its objectives. 
+To get a proper view of the elements of the organization, different views are developed as part of the business architecture. The integration of these views provides a complete view of the organization. According to OMG the key views are
+- Business strategy view – describes the strategic and tactical goals. These goals are mapped in to metrics that can be used to track whether the organization is achieving its goals
+- Business capabilities view – describes the primary functions of the business and the parts of the organization that performs these functions. The functions are recognized as customer facing functions, supplier related functions, business execution and business management functions
+- Value stream view – describes the end-to-end activities that deliver value to internal and external stakeholders. These activities go beyond the boundaries of the organization and the key aspects of business architecture that aligns business processes with business architecture.
+- Business knowledge view – this describes the information such as customers, order etc. about the business and relationship among these information. This forms the vocabulary that is used by the organization to communicate and structure the understanding of the areas the business operate within
+- Organization view – describes the relationship among the roles, capabilities, business units and sub units as well as the management of these units
+
 ###### Driven by
+The need for a business architecture is driven by the need to align different components of the business and come up with a common language and a level of abstraction that is accepted by both parties. This can be achieved by using the main elements of a business architecture as described above.
+
 ###### Impacted personals
+Stakeholders, customers, finances, market, partners, and suppliers
       
 #### Strategic reasons
-  
+ A  business can suffer when there is no proper connection among the stakeholders. Once of the common problem that can happen is that the vision is not correctly translated to actionable goals. By using Business architecture the organization can be properly aligned within all it’s business units. 
+Implementing a business architecture can be beneficial is scenarios such as legacy modernization, globalization, regulatory compliance, determining new market and joint venture development
+
 #### Key areas
   
 #### Quality attributes
