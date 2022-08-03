@@ -141,15 +141,15 @@ When it comes to the upkeep of this architecture, the following components can b
 -	Networking
 -	Security
 -	Monitoring and Cost Optimization
+#### Why
+- Utilizing the most effective methods in order to ensure that the system keeps running normally, unimpeded by either internal or external abnormalities.
+- Ability to quick response when there is an urgent need arises so that within minimum time frame the technical modifications by developers if required could be attended
 ##### Driven by
-Utilizing the most effective methods in order to ensure that the system keeps running normally, unimpeded by either internal or external abnormalities.
+Developer Team and Opertations Teams
 ##### Impacted personals
-Developer Team
-Opertations Teams
-Product owners
-#### Strategic reasons
-- when considering the production architecture it is very much important that customer requirments must be considered first when making any major changes with minimal interruptions to the systems.
-- Ability to quick response when there is an urgent need araises so that within minimum time frame the technical modifications by developers if required could be attended
+- Developer Team
+- Operations Teams
+- Product owners
 #### Key areas
   
 #### Quality attributes
