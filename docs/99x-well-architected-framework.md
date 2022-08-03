@@ -133,11 +133,23 @@ Every software products deal with data and mainly how and where  data is to be s
 
 ### Production Architecture 
 #### Definition
-##### Driven by
-##### Impacted personals
+A more advanced version of the product and infrastructure architecture that, when coupled, helps with system maintenance but has no impact on how end users actually utilize the system. 
 
+When it comes to the upkeep of this architecture, the following components can be taken into consideration:
+-	Continuous Integration and Delivery
+-	Infrastructure design and architecture
+-	Networking
+-	Security
+-	Monitoring and Cost Optimization
+##### Driven by
+Utilizing the most effective methods in order to ensure that the system keeps running normally, unimpeded by either internal or external abnormalities.
+##### Impacted personals
+Developer Team
+Opertations Teams
+Product owners
 #### Strategic reasons
-  
+- when considering the production architecture it is very much important that customer requirments must be considered first when making any major changes with minimal interruptions to the systems.
+- Ability to quick response when there is an urgent need araises so that within minimum time frame the technical modifications by developers if required could be attended
 #### Key areas
   
 #### Quality attributes
