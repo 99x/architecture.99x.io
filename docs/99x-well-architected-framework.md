@@ -7,9 +7,11 @@ title: 99x Well Architected Framework
 ### Abstract
 
 ### Introduction
-This is a framework for building market-winning products. This is going to cover 99X architecture process and how the 99X covers the architectural pillars when building a product.
-
-The business architecture is more prominent before code write. Product architecture is more prominent while the product is in development. Infrastructure architecture is more prominent after code freeze until production. Production architecture is more prominent when the Product is in production.
+99X well architecture framework is designed for building market-winning products. This framework will guide you through the architectural best practices by looking at it from four different views. These are;
+- Business architecture - focuses on customer success and market sense
+- Product architecture - focuses on technology, data, and nonfunctional requirement
+- Infrastructure architecture - focuses on the deployment/release pipelines, configuration transformation and management, automation and optimized lead-time into production, release security, release validation, release roll-back and release management strategies without being limited to cloud environments
+- Production architecture - focuses on maintaining a system in production. Involving in the day-to-day smooth running of the system.
 
 The 99X well architecture framework describes key concepts, design principles, and architectural best practices for designing and developing a product that can run on any platform. By addressing relevant quality attributes, which is specific to each pillars, the stakeholders can clarify almost every gray areas to come up with right architecture style and patterns. 
 
