@@ -76,24 +76,102 @@ Final step is how to make our product to day today running smoothly. To do this 
 There are 4 key areas in product architecture
 ##### System Decompostion
 
-During product architecture, the entire product is normally designed such a way will be decomposed into different layers, componets, services, etc.. based on an agreed decomposition strategy. Systems can be decomposed based execution context, deployment context, business or domain capabilities. Some software architecture styles such as Multi Tier, Micro Services, Event driven and Web queue worker are defined based on these strategies. With these, the system can be planned, developed, deployed and maintained more independent and loosely coupled way.
+During product architecture, the entire product is normally designed in such a way that it will be decomposed into different layers, components, services, etc.. based on an agreed decomposition strategy.
+
+Systems can be decomposed based on execution context, deployment context, business or domain capabilities. Some software architecture styles such as Multi Tier, MicroServices, event/message driven, queue worker,  batch proccesings are defined based on these strategies. 
+
+With these, the system can be planned, developed, deployed and maintained in a more independent and loosely coupled way.
+
 
 ##### Data
-Every software products deal with data and mainly how and where  data is to be stored and processed need to be analysed. Relational, Documents, key values, graph and time series are some of the data storing patterns. And proper modeling the data storage and isolation tequniques such as normalizations levels, logical partitioning and tenant based isolations are also available. Proper data modeling and isolation leads to more cost frieldy, performant and secure data management in the product.
+
+Every software products deal with data and mainly how and where  data is to be stored and processed need to be analysed.
+
+Relational, Documents, key values, graph and time series are some of the data storing patterns. And proper modeling the data storage and isolation techniques such as normalizations levels, logical partitioning and tenant based isolations are also available.
+
+Proper data modeling and isolation leads to more cost friendly, performant and secure data management in the product.
+
+##### Communication and interaction
+
+The system components should communicate with each other effectively for smoother function of product as a whole. Normally the components are distributed and communicate over the Networks.
+
+Communication styles such synchronous vs asynchronous and push vs pull based, communication protocol such as http, tcp, rpc, amqp, etc.. data formats like json, binary, soap etc.. and communication based technologies like Rest apis, graphql, web hooks and queue based messaging are some considerations. 
+
+The right component communication strategy are the main factors for expected responsiveness and scalability of the system.
+
+##### Implementation technologies, tools and practices
+
+Software products use technologies for implementation and then tools and practices for proper use of the technologies.
+
+Right selection of Programming languages in all stack, database technologies, Design and communication patterns, libraries and frameworks, and development tools and plugins are required for efficient delivery, extendability, security and maintainability of the system.
+
+##### Process and Best Practices
+
+Software product architecture should follow a defined processes and best practices for success in the product.
+
+Agility in Architecture and designs, frequent reviews, proper technical leaderships (architect role), innovation and continous improvements are key for more maintainable, extendable and sustainable a software product in long run.
 
   
 #### Quality attributes
 ##### Performance
- ###### Overview
- ###### Questions / Guidance
+ Performance in product refers to as ability of the product to run on any user activity or scale at any time with expected response time. 
+
+PPQ1: How do you achieve the performance by design?
+During the product architecture design the performance of the system can be considered in following factors ( caching, support scale horizontally and automatic scale in and down, component proximity, data persistent design, workload isolation/decoupling, component to component )
+- [ ] Reduce Initial loading time
+- [ ] Lower Page response time
+- [ ] Process Large number of items in less time (Ex. How many PDF needs to be generated based on the specific time) 
+- [ ] Load certain volume of data without any delay
+- [ ] Keep the expected performance of the product even at high user load.
+- [ ] Make sure long running processes or activities do not affect normal product functionality performance.
+- [ ] Make sure minimal latency during product component to component communication 
+
+
+PPQ2: How do you achieve the performance by technology?
+Technology selection can mainly effect the performance of the application in following areas.
+- [ ] Reduce initial loding
+- [ ] Lower Page response time
+- [ ] Keep best performance for expected devices
+- [ ] Provide lower processing time
+- [ ] Serve high number of concurrent requests and parallel processing
+- [ ] Identify technology limitations
+- [ ] Identify for Performance and Load benchmarks
+
+PPQ3: How do you achieve the performance by data strategy?
+Proper data modelling and persistent technologies and strategies can influence the performance of the overall software product.
+
+- [ ] Reduce data retrieval time
+- [ ] Reduce data writing time
+- [ ] Minimize processing in persistent store
+- [ ] Keep the expected performance during high data volume
+
 			
-##### Efficiency
- ###### Overview
- ###### Questions / Guidance
 			
-##### Security
- ###### Overview
- ###### Questions / Guidance
+##### Security and Privacy
+Security of the system gives assurance for confidentiality, integrity and availability of data and system it self from attacks, threats and abuses. And privacy mainly relates to the storing, processing and transferring of personally identifiable data
+
+SPQ1: How do achive software product security by design
+During the design phase of the system, it is required to focus on following areas for secure product
+
+- [ ] Protect the Product from unauthorized access to system
+- [ ] Protect the product from unathorized actions, viewing and changing system state
+- [ ] Protect product component and services from attacks, unauthorized consumptions, threats and unavailabilities
+- [ ] Protect secrets, sensitive and personally identifiable informations from unautohrized disclosure
+- [ ] Make sure regional, organizational, domain specific or any other compliance or policy related restrictions can be enforced
+
+SPQ2: How do achieve software product Security by technology?
+	
+- [ ] Protect the product against vulnerabilities from third parties libraries, dependencies and frameworks
+- [ ] Protect product for any vulnerabilities and breaches in more proactive and automated way.
+- [ ] Protect against sensitive, secret data and personally identifiable data misuse and disclosure
+- [ ] Any security or privacy vulnerabilities can be identified and validated in a reactive way.
+
+SPQ3: How do achieve software product security and privacy by data strategy?
+
+- [ ] Protect the product from unautorized access and change to the data.
+- [ ] Protect from making data unavaiable
+- [ ] Protect from disclosing sensitive and personally identifiable data.
+
 			
 ##### Privacy
  ###### Overview
