@@ -173,21 +173,38 @@ SPQ3: How do achieve software product security and privacy by data strategy?
 - [ ] Protect from disclosing sensitive and personally identifiable data.
 
 			
-##### Privacy
- ###### Overview
- ###### Questions / Guidance
 			
-##### Reliability (Resilience, fault tolerance, availability)
- ###### Overview
- ###### Questions / Guidance
+##### Reliability
+Reliability refers to as ability of the software product to function without any issues under agreed condion and period. With the reliability software product architecture need to make sure no functional bugs, down times, performance and security issues. 
+
+RPQ1 : How do achieve software product reliability
+
+- [ ] Minimize the entire system or functionality failures
+- [ ] Reduce the impact to product users when there is a failure.
+- [ ] Increase the level of tolerance during a service or component failure.
+- [ ] Make the system or a service can recover to its normal condition, when there is a failure ( Reduce Recovery time objective)
+- [ ] Make less impact to the data looses during a failure or unavaiability ( Reduce Point Objective)
+
 			
 ##### Functional stability (bug-free)
- ###### Overview
- ###### Questions / Guidance
+Functional stability is defined as Software should continue to function on different environment and conditions without any failures and with expected quality.
+
+RPQ1 : How do achieve software product Functional .
+
+- [ ] Make sure system can run without any failures in varying user loads and behaviours
+- [ ] Make sure system is functional in different user platforms, devices and networks.
+- [ ] Make sure system perform as expected in different data loads
+
 			
 ##### Maintainability
- ###### Overview
- ###### Questions / Guidance
+Effectiveness of a good product architecture is mainy measured by how easily system can be changed for future requirements cost effective way over the product’s life time.
+
+- How well the software product can be modified for continuous changes-   Every software product has to evolve over the time after the live roll out and even before it. These changes will come as an improvements and bug fixes based on business, technology and environment changes.
+
+- How well the product is test automated - as system functionality is more covered with test automation, it is more easier for changes. Mainly test can be automated using unit, integration and UI testing (Test Pyramid).Further some automated code, security, load and performance quality check will be helpful
+
+Design for testability, test first approach to the implementation ( Test driven development), design patterns,  more control over resubaility of the system, proper coding practices like SOLID lead to the more maintaiable software product.
+
 
 ### Infrastructure Architecture 
 #### Definition
