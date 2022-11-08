@@ -405,10 +405,23 @@ Design for testability, test first approach to the implementation ( Test driven 
 ### Infrastructure Architecture
 
 #### Definition
+The process of ensuring that technological systems and infrastructure are developed to encourage business requirements is known as infrastructure architecture. Well-documented, integrated infrastructure models with the appropriate amount of information and abstraction for various stakeholders are a crucial result of a structured approach to infrastructure architecture. Release and deployment automation, security, validation, and release management are the major areas of attention for infrastructure architecture.
+
+In summary, there are essentially 3 different types of infrastructure architectures that can be used with the infrastructure platform to support the product:
+1. On-premise - A single physical server with an operating system, platform, and application is the standard server design.
+2. Cloud - Infrastructure for virtualized servers that distributes virtual machines across many real servers 
+3. Hybrid - Multiple containers distributed across the application platform in a containerized server architecture
 
 ###### Driven by
+When it comes to infrastructure architecture, it depends on how critical the application architecture is. So generally, the architect and development team initiate the product's architecture. And the ownership is going to the Ops team.
+Since we are focusing on the product under the infrastructure architecture we are mainly focussing on
+  1. On-premise infrastructure architecture driven by DevOps, support engineers, network engineers
+  2. Cloud infrastructure architecture driven by Solution architect, dev team
+  3. Cost and pricing
 
 ###### Impacted personals
+Dev and Ops teams, PO, CTO(product)
+Product CTO - whether to go on on-premise, cloud and cost
 
 #### Strategic reasons
 
