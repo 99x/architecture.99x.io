@@ -267,7 +267,7 @@ Implementing compliance procedures protects your company’s reputational risk a
 
 BCQ1: What are the different types of compliance applicable for your product?
 
-When we consider compliance, Regardless of size or the type of the product, compliance is one area that no one should neglect. Each of the below compliance types will affect the product health to some degree and we must make sure to adhere to the latest standards and guidelines.
+When we consider compliance, regardless of size or the type of the product, compliance is one area that no one should neglect. Each of the below compliance types will affect the product health to some degree and we must make sure to adhere to the latest standards and guidelines.
 
 - [ ] Corporate Compliance - following all laws, regulations, standards, and ethical practices that apply to your organization and industry.
 - [ ] Regulatory Compliance - following the local and international laws and regulations that are relevant to its operations
