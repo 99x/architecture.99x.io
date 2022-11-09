@@ -265,8 +265,8 @@ Product Architecture represents how the functionality of your product is structu
 In deriving the product architecture, in addition to the functional requirements you should also consider;
 - Non-functional requirements of your product
 - Technology specifics
-- Manage data and data flows through different modules ???
 - Integration Points
+- How to manage data and data flows through different modules
 
 So we can say the product architecture is a combination of Application architecture, Integration architecture and Data architecture.
 
