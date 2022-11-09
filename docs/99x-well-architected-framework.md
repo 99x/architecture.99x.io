@@ -101,6 +101,7 @@ BFSQ1: What are the constraints that need to be considered for functional suitab
 - [ ] Security
 
 BFSQ2: What is functional completeness and how can we achieve functional completeness in a business?
+
 Functional completeness is the degree to which the set of functions covers all the specified tasks and user objectives in business. Consider the following steps to achieve functional completeness in your system.
 
 - [ ] Identify what process needs to implemented
@@ -248,7 +249,7 @@ They can be classified into three types:
 
 Planning for unknown unknowns will reduce development time, and costs and ultimately allow for better product delivery on time and on budget. The known unknown must be identified, along with the event that will trigger the risk mitigation process. These types of risks are discussed early on during the project planning process and the project sponsor and stakeholders confirm and validate the risk, contingency, and response plan.
 
-What are the gray areas of the product?
+BKUQ1: What are the gray areas of the product?
 
 - [ ] Technology stack
 - [ ] User load
@@ -257,6 +258,36 @@ What are the gray areas of the product?
 - [ ] Traffic pattern
 - [ ] Backup plans
 - [ ] Security
+
+##### Compliance
+
+Compliance is an essential and important part of any business, irrespective of what sector the organization is operating in. It refers to following the internal policies or government laws and regulations that the organization is subjected to.
+
+Implementing compliance procedures protects your company’s reputational risk and improves your company’s vision and value as well as prevents and detects violations of rules. Failure to follow those compliance requirements can put you at risk of financial fines or legal penalties.
+
+BCQ1: What are the different types of compliance applicable for your product?
+
+When we consider compliance, regardless of size or the type of the product, compliance is one area that no one should neglect. Each of the below compliance types will affect the product health to some degree and we must make sure to adhere to the latest standards and guidelines.
+
+- [ ] Corporate Compliance - following all laws, regulations, standards, and ethical practices that apply to your organization and industry.
+- [ ] Regulatory Compliance - following the local and international laws and regulations that are relevant to its operations
+- [ ] Data compliance - ensuring that the product is correctly and legally collecting, organizing, storing, and managing data.
+- [ ] Human resource compliance - all the business policies and procedures that ensure your organization is operating lawfully and with the welfare of your employees.
+- [ ] Product health and safety compliance - ensure the product health and safety measurements are met.
+
+BCQ2: What are the compliances and the standards to be followed in your product?
+
+Compliance standards are sets of rules that an organization is required to follow. To prove that the organization follows the rules, it must have a set of written policies, and it must also create a set of procedures and processes that people must follow as they carry out the policies.
+
+Consider using the below compliance standards for your product development as needed.
+
+- [ ] Payment Card Industry Data Security Standard (PCI DSS)
+- [ ] International Organization for Standardization (ISO) standards
+- [ ] General Data Protection Regulation (GDPR)
+- [ ] Federal Information Security Modernization Act (FISMA)
+- [ ] Health Information Technology for Economic and Clinical Health Act (HITECH)
+- [ ] Web content accessibility guidelines (WCAG)
+- [ ] 508 compliance
 
 ### Product Architecture
 
