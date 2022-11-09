@@ -499,13 +499,32 @@ Product CTO - whether to go on on-premise, cloud and cost
 ### Production Architecture
 
 #### Definition
+- An architecture view that helps to run the system smoothly and cater system maintenance when the product moves to production.
+- It also supports end users’ day-to-day usage without any other external impact.
+- This architecture view will act as guidance on product troubleshooting and cost optimization where it helps to extend or add necessary improvements to the product.
+Ex:
+    - Adding dashboard
+    - Usage analytics system support
+    - Issues monitoring system
+    - Real time notifications support to inform administrators if any issues are encountered in the production.
 
+#### Why
+- Implementing best strategies to keep the system functioning normally, unimpeded by either internal or external exceptions.
+    - Ex
+      - Adding resources utilisation tracking to avoid extra cost charges.
+      - Logs tracking system for system troubleshooting. 
+- Being able to react quickly in an emergency situation so that developers may make any necessary technological changes in a short amount of time
+  - Ex
+    - system’s continuous monitoring facility will inform critical issues through real time notifications to avoid extra charges.
 ##### Driven by
-
+- DevOps Team  
+- Site Reliability Engineers Team
 ##### Impacted personals
-
-#### Strategic reasons
-
+- DevOps Team
+- Intrusion Prevention Systems
+- Intrusion Detection Systems
+- Product owners
+- Service Desk 
 #### Key areas
 
 #### Quality attributes
