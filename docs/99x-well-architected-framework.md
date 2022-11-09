@@ -261,12 +261,25 @@ What are the gray areas of the product?
 ### Product Architecture
 
 #### Definition
+Product Architecture represents how the functionality of your product is structured into modules and how these modules interact with each other.
+In deriving the product architecture, in addition to the functional requirements you should also consider;
+- Non-functional requirements of your product
+- Technology specifics
+- Manage data and data flows through different modules ???
+- Integration Points
+
+So we can say the product architecture is a combination of Application architecture, Integration architecture and Data architecture.
 
 ###### Driven by
+Development Team
 
 ###### Impacted personals
+- Users
+- Operational Team
+- Development Team
 
 #### Strategic reasons
+Deriving a product architecture will assist you to properly consolidate the functional, non-functional, technical, and operational requirements of your product. This will also provide your Development Team and the Operational Team a design to abide by. Therefore, a proper product architecture provides guidance and compliance during the implementation phase as well as in the maintenance phase for the Development Team and the Operational Team.
 
 #### Key areas
 
