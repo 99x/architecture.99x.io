@@ -526,25 +526,6 @@ Ex:
 - Product owners
 - Service Desk 
 #### Key areas
-  
-#### Quality attributes
-##### Observability (Incident response, Monitoring, Testing)
- ###### Overview
- ###### Questions / Guidance
-				
-##### Cost Optimization
- ###### Overview
- ###### Questions / Guidance
-				
-##### Troubleshooting
- ###### Overview
- ###### Questions / Guidance
-				
-##### Governance
- ###### Overview
- ###### Questions / Guidance
-
-#### Key areas
 
 #### Quality attributes
 
