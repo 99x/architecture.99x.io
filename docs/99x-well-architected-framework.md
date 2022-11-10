@@ -39,12 +39,34 @@ Final step is how to make our product to day today running smoothly. To do this 
 ### Business Architecture
 
 #### Definition
+When implementing a product, it is important to understand the why we are building the product, what is the problem we are trying to solve. This should also include how the product will be perceived by the users and the market in general. The business architecture of a product will provide answers to these questions.
+When defining the business architecture, we can analyze the product from different aspects as below.
+- User experience - It is vital that we understand the users who will be using the product. Identifying the different personas of users will help the stakeholders to identify the features that the product should support as well as how these features should be presented to the users. A user persona will analyze the demographic of a typical user, what is the purpose the user will be using the product. It is also important to identify the motivation the user chooses to use this product and what will get them to continue to use the product.
+
+- Technology sophistication - When using a product, a user has certain expectations that the product will provide implicitly. For example, in a banking application, they would expect it to be accurate (high reliability) and it is available at any time the user needs it (high availability). It is important that we identify these expectations and regulations early on along with identifying the features of the product. These facts will impact on the infrastructure architecture for example whether the product will be hosted in cloud or on-premise.
+
+- Regulation and Compliance - In every domain there can be regulation and compliance that a product must adhere to. For example when a product is planned to be used in Europe and contains personal identifiable information (PII) then the product should be GDPR compliant. Also of the product is in healthcare domain there are other regulations and compliances that should be adhered to. These will impact on how the features are delivered to the end users.
+
+- Market sense - A product either tries to solve a problem or will provide a solution to a requirement that the users themselves are not aware that they need. In case of trying to solve a problem that the users already aware, it is best to analyze what are the other products already available in the market. It is important to identify in addition to the common features, what are the pain points of the users who are already using an existing product and address them. This will make the product stand apart from the other existing products.
+
+- Customer success - Once a product is released to the market, it should be able to solve the problem that the users have and guide them to achieve their goal. The customer success is an important factor in defining the business architecture since it influences the features that will be included. If the features do not support and guide a user in achieving their goals, they will not be happy to continue using the product and move out to another one.
+
+- Budget - In addition to the features provided by the product, it is also important to get a sense of the prices in the market. If the product price is too high than other products already in the market, the users will be discouraged to move into the new product. Therefore, when designing a product, it is best to keep in mind the cost of implementing each features and supporting additional user expectations.
+By identifying the necessary requirement for each aspect of the product, we will be able to come up with a comprehensive business architecture, which will set the tone of the product.
+
 
 ###### Driven by
+Product owner, User, Sales, Dev team
 
 ###### Impacted personals
+Stakeholders, customers, finances, market, partners, and suppliers
 
 #### Strategic reasons
+Implementing a business architecture can be beneficial is scenarios such as 
+- Legacy modernization, 
+- Globalization, 
+- Regulatory compliance
+- Determining new market and joint venture development
 
 #### Key areas
 
