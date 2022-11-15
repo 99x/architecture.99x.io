@@ -563,28 +563,158 @@ Ex:
 #### Quality attributes
 
 ##### Observability (Incident response, Monitoring, Testing)
-
-###### Overview
+- When a product is in production, being able to see its internal status from outside is an utmost important quality of product. As an example when a system is in production ability to see that its usage of RAM is increasing and currently it is at 80% usage will give support staff a heads up for system failure in the future.
 
 ###### Questions / Guidance
+
+POQ1 : When the Product is up and running, you may encounter different types of errors or intrusions. What kind of mechanisms should be used to report incidents?
+
+POA1 : Nowadays operational staff may not be looking at dashboards, they need a way to be notified automatically whenever an incident happens, Thus we have to multiple ways of incident reporting based on criticality, and whom should get notified also should be decided appropriately. Use one or more following approaches to achieve this.
+
+- [ ] Establishing an incident reporting system
+- [ ] Implementing Logging
+- [ ] Using System Monitoring
+
+
+POQ2 : How do you classify your incidents and categorize them?
+
+POA2 : Following are some of the known incident types widely used. Choose which types are relevent for you.
+
+- [ ] Bugs
+- [ ] Performance 
+- [ ] Downtime
+- [ ] Hacking attempts
+- [ ] Resource utilization
+
+POQ3 : What kind of information should we be able to monitor in a system?
+
+POA3 : There are many parameters that can be monitored in a system. These could range from user and activity based matrices to resource consumtions. Select the matrices that you target to implement in your system.
+
+- [ ] No of users active in the system and from what regions
+- [ ] What are the user activities mostly done
+- [ ] Resource utilization against time
+- [ ] Suspicious users 
+- [ ] Blocked user attempts
+
+
+POQ4 : What should be considered when testing a system in production?
+
+POA4 : Since this is about the production system. Anything that has a negative impact on the user should be avoided. Following list contains some of the main points to consider.
+
+- [ ] Downtime should be adhering to the SLA agreements
+- [ ] Should not negatively impact user experience (ex -performance issues)
+- [ ] Test data should not persist in the production database.
+
+
+POQ5 : Considering all the above points since we have multiple ways of knowing the status of the product, what should be considered when we log incidents?
+
+POA5 : Incident report should be easy to understand and adhere to the governance. Following below points will help you to achieve this.
+
+- [ ] Structure
+- [ ] Information
+- [ ] Compliance
+- [ ] Performance
+- [ ] classifications
+
+
+When designing the system we should have these in mind to have access points to support the observability of the product. Not only that but When configuring the server also we should give attention to these.
 
 ##### Cost Optimization
 
-###### Overview
+- Cost optimization of a product applies on multiple levels and thereby it implies reducing the total cost of ownership.
 
 ###### Questions / Guidance
+
+PCOQ1 : When a product is in production, What are the things that impact production cost?
+
+PCOA1 : Following points indicate the main cost factors of a production system.
+
+- [ ] Processing Power
+- [ ] Disk Space
+- [ ] Network usage
+
+
+PCOQ2 : How can we reduce the cost of a product in production?
+
+PCOA2 : There are many ways we can reduce the cost of production. Starting from the business architecture all architectural points will have an impact on this. Following pointers will help you to decide whats best suited for your product while optimising the cost.
+
+- [ ] Way of scaling
+- [ ] Regions
+- [ ] Having server utilization monitoring
+- [ ] Shared resourcing
+- [ ] Backup retention
+- [ ] Data retention and moving into tiers.
+- [ ] Proper network configurations
+- [ ] Transfer data in proper formats.
+- [ ] Caching
+
+
 
 ##### Troubleshooting
 
-###### Overview
+- When there is a production issue, it's highly critical that we have the ability to respond and resolve it in an efficient manner.
 
 ###### Questions / Guidance
+
+PTQ1 : What do we need to respond quickly to a production issue?
+
+PTA1 : Production system should have followings to respond quickly to a production issue.
+
+- [ ] Proper logs
+- [ ] Way to reproduce the issue
+- [ ] Way to apply the patch
+
+
+PTQ2 : What do you mean by proper logs?
+
+PTA2 : In order to troubleshoot a production issue and find its course logs will be the first place someone can check. Following attributes in a log will help support staff.
+
+- [ ] Proper Structure
+- [ ] Timestamp
+- [ ] Stack trace
+- [ ] Log Classification
+- [ ] User action flow
+
+
+PTQ3 : What can be improper information in a log?
+
+PTA3 : Mainly with GDPR personally identified information should not be logged.
+
+PTQ4 : What should we think when reproducing an issue in production?
+
+PTA4 : Since we are talking about a production system we should be carefull about negatively impacting user experience. Hence, paying attention to following items will help. 
+
+- [ ] Should not interfere with actual user actions
+- [ ] Test data should not persist in the production database
+
+PTQ5 : How fast should we resolve a production issue?
+
+PTA5 : It depends on the SLA s we have in place with the system with respective to the priority of the issue.
+
 
 ##### Governance
 
-###### Overview
+- Governance is the ability of the system to adhere and comply to regulations defined by legal and industry standards.
 
 ###### Questions / Guidance
+
+PGQ1 : What are the type of compliance we should think about in production.
+
+PGA1 : There are many compliances that software development has to adhere and following are few examples that you should consider based on the business. 
+
+- [ ] GDPR
+- [ ] Performance Compliance
+- [ ] Reliability Compliance
+
+PGQ2 : Other than above compliances can there be separate agreements that we have to adhere in production?
+
+PGA2 : Yes based on the business requirement there can be deferent types of agreements that we have to adhere in production. Some of the common type of agreements are listed here.
+
+- [ ] SLA
+- [ ] Change Management Agreement
+- [ ] Risk Management
+- [ ] Infrastructure Agreements
+
 
 ## Quality Attributes Definitions
 
