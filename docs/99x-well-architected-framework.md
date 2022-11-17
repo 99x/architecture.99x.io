@@ -493,36 +493,34 @@ Most common mistake that occurs within software projects is identifying the infr
 
 #### Key areas
 Infrastructure architecture depicts the mapping of a logical architecture to a physical resource environment.
-There are 5 key areas to pay attention.
+There are 5 key areas to pay attention to.
 
 ##### Sizing the planned deployment infrastructure needs
-Infrastructure architecture needs to determine the physical resources necessary to meet the system requirement. Architect should pay attention to derive a design that implies 
-best use of resources while adhering to the business constraints and non functional requirements. Successful sizing of an infrastructure requires past design experience, 
-knowledge of systems architecture, domain knowledge and close attention to the NFRs.
+Infrastructure architecture includes the physical resources necessary to meet the software product requirements. Architect should pay attention to derive a design that implies 
+best use of resources while adhering to the business constraints and non-functional requirements. Successful design of an infrastructure requires past experience, 
+knowledge of systems architecture, domain knowledge and close attention to the non-functional requirements.
 
-##### Optimize resources & Know your Compromises
-Due to various factors such as time and cost, we may have to be flexible in our architectural decisions, but yet meeting the standards as much as possible.
-Unfortunately the Infrastructure architectural phase could possibly be the most prominent stage that this could happen. Resource optimization often tied up with compromises 
-which is inevitable. But your infrastructure architecture has to be justified against these decisions. Further those points has 
+##### Optimize resources & know your compromises
+Due to various factors such as time and cost, we may have to be flexible in our architectural decisions, yet meeting the standards.
+Resource optimization often tied up with compromises which is inevitable where you have to justify against these tradeoffs. Further those points has 
 to be clearly documented and maintained for future references as well.
 
-##### Risk Management
-As we know, most of the time during architecture phase, requirements might not reflect the true picture, which is why we keep some provisions for such unknowns.
-For an example if projections from business requirements underestimates the actual production usage of the system, your decisions 
-might run the risk of an incapable infrastructure architecture that cannot meet the expectations. To avoid that the infrastructure architecture has to be discussed and evolve 
-through out the important decisions made during other architecture stages too.
+##### Identifying the risk
+As we know, during the architecture phase, infrastructure requirements may have gaps, which is why we keep some provisions for such unknowns.
+For an example if you underestimate the actual production usage of the system, your system will not be able to handle the expected load. 
+To avoid that, the infrastructure architecture should continuously evolve based on business needs.
 
-##### Deployment strategies (without being limited to cloud environments) (Release management strategies??)
-In order to guarantee an optimized lead time into production, it is necessary to have a properly identified deployment strategy based on the business and product architecture constraints.
-Some of them are:
+##### Handling deployments
+In order to improve lead time of feature delivery, it is necessary to identify an efficient deployment strategy within the business and product architecture constraints.
+There are well established strategies that you can choose from:
 - Recreate Deployment
 - Blue/Green Deployment
 - Canary Deployment
+- Shadow Deployment
 
-##### Deployment Architecture Design
-This is a crucial artifact during this phase, which should be shared and discussed across the main stake holders of the system. And this
-has to be prototyped along with the development phase of the product, so that the developers will also tend to make the right technical decisions with proper visualizations
-of how their components may behave in production. 
+##### Visualize your infrastructure
+You need to create your infrastructure diagrams, for better visualization of the system. It also helps to discuss the key areas among the stake holders. You 
+can create the draft document from the initial stage, so that the developers will also be aware of the underline infrastructure that their code is being executed. 
 
 #### Quality attributes
 
