@@ -547,11 +547,6 @@ ICOQ3 : Have you consider and compare alternative options for infrastructure?
 - [ ] Competitive advantages of choosing the right infrastructure 
 - [ ] Keep track of competitive decisions
 
-ICOQ4 : Have you consider automates infrastructure provisioning?
-
-- [ ] Identify an infrastructure automation language
-- [ ] Infrastructure layers and modules
-- [ ] Infrastructure changes review and dry run
 
 ##### Monitoring
 
@@ -588,25 +583,43 @@ IMQ4 : Do you plan to do a trial run to customer alerts?
 
 ###### Overview
 
-###### Questions / Guidance
-
-##### Governance (regulations related)
-
-###### Overview
+Once your application is on production, make sure that infrastructure security is properly handled.
 
 ###### Questions / Guidance
+ICQ1: Have considered proper security configuration for infrastructure?
+- [ ] Ensure to change default configurations
+- [ ] Ensure to change the default passwords
+- [ ] Conduct a test for infrastructure security
+- [ ] Up to date software versions
+
 
 ##### Availability
 
 ###### Overview
 
+Availability is a key factor in ensuring the success of any system. Through careful planning and consideration of the environmental factors that could affect the system.
+
 ###### Questions / Guidance
+IAQ1: Have evaluated your infrastructure for availability?
+- [ ] Check you infrastructure SLAs
+- [ ] Identify potential point of failure of your infrastructure
+- [ ] Ensure that sufficient redundancy in place
+
 
 ##### Maintainability
 
 ###### Overview
 
+Maintainability is one of the key component of the Infrastructure Architecture. Here, we need to consider the reliability of infrastructure and ability to change over its lifetime.
+
 ###### Questions / Guidance
+
+IMQ1 : Have you consider automates infrastructure provisioning?
+
+- [ ] Identify an infrastructure automation language
+- [ ] Infrastructure layers and modules
+- [ ] Infrastructure changes review and dry run
+
 
 ### Production Architecture
 
