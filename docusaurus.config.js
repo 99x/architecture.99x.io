@@ -50,7 +50,7 @@ module.exports = {
               href: "https://www.linkedin.com/company/99xio"
             },
             {
-              label: "Discord",
+              label: "Facebook",
               href: "https://www.facebook.com/99xio"
             },
             {
