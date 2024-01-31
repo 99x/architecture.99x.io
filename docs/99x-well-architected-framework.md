@@ -1,879 +1,2127 @@
----
-id: 99x-well-architected-framework
-title: 99x Well Architected Framework
----
+--- 
 
-## Abstract and Introduction
+id: 99x-well-architected-framework 
 
-### Abstract
+title: 99x Well Architected Framework 
 
-### Introduction
+--- 
 
-99X well architecture framework is designed for building market-winning products. This framework will guide you through the architectural best practices by looking at it from four different views. These are;
+  
 
-- Business architecture - focuses on customer success and market sense
-- Product architecture - focuses on technology, data, and nonfunctional requirement
-- Infrastructure architecture - focuses on the deployment/release pipelines, configuration transformation and management, automation and optimized lead-time into production, release security, release validation, release roll-back and release management strategies without being limited to cloud environments
-- Production architecture - focuses on maintaining a system in production. Involving in the day-to-day smooth running of the system.
+## Abstract and Introduction 
 
-The 99X well architecture framework describes key concepts, design principles, and architectural best practices for designing and developing a product that can run on any platform. By addressing relevant quality attributes, which is specific to each pillars, the stakeholders can clarify almost every gray areas to come up with right architecture style and patterns.
+  
 
-Further, by answering few fundamental questions lean how to use right architectural style, patterns, and technologies. As well as it will guide to take the right decisions when designing an architecture for a specific requirement.
+### Abstract 
 
-## Architecture process
+  
 
-Designing and building a right solution for a specific business requirement is a complex task. One way is to identify clear separation to make it simpler. Having a basic understanding of what needs to consider of each separation, will help to build a most suitable architecture for the complex business requirement.
+### Introduction 
 
-The architecture of a system describes its non-functional requirements as style, patterns, and concepts. The technologies will describe how to implement functional requirements with addressing non-functional requirements. A proper software architecture and design needs to consider several factors. With 99 X, well architecture framework, we mention them as architecture views.
+  
 
-First, we need to have a proper idea of the business needs. What kind of problem that the customer going to be solved. What are the quality attributes that we need to address for the business need. Here, we called it as “Business Architecture”. From this view the 99X well architecture framework looks for the business need of the customer with applying relevant quality attributes.
+99X well architecture framework is designed for building market-winning products. This framework will guide you through the architectural best practices by looking at it from four different views. These are; 
 
-Once we develop the business architecture, need to think of non-functional requirements and functional requirements. Based on those it needs to be identified which architectural style and architectural patterns that full-fill this requirements. To address this the relevant quality attributes will help to identify the parts to consider. Based on 99x well architecture framework, we call this view as “Product Architecture” .
+  
 
-As the next view, need to think about the infrastructure that most applicable for our product architecture. Infrastructure are the technologies, which helps to develop functional and non-functional requirements. Based on 99x well-known architecture, we call this view as “Infrastructure Architecture”.
+- Business architecture - focuses on customer success and market sense 
 
-Final step is how to make our product to day today running smoothly. To do this we need to address several quality attributes. This view is most important to make the availability, fault tolerance, and smoothly running the product with adding values to the customer. Based on 99x well architecture, we call this view as the “Production Architecture”.
+- Product architecture - focuses on technology, data, and nonfunctional requirement 
 
-## Architecture Views
+- Infrastructure architecture - focuses on the deployment/release pipelines, configuration transformation and management, automation and optimized lead-time into production, release security, release validation, release roll-back and release management strategies without being limited to cloud environments 
 
-### Business Architecture
+- Production architecture - focuses on maintaining a system in production. Involving in the day-to-day smooth running of the system. 
 
-#### Definition
-When implementing a product, it is important to understand the why we are building the product, what is the problem we are trying to solve. This should also include how the product will be perceived by the users and the market in general. The business architecture of a product will provide answers to these questions.
-When defining the business architecture, we can analyze the product from different aspects as below.
-- User experience - It is vital that we understand the users who will be using the product. Identifying the different personas of users will help the stakeholders to identify the features that the product should support as well as how these features should be presented to the users. A user persona will analyze the demographic of a typical user, what is the purpose the user will be using the product. It is also important to identify the motivation the user chooses to use this product and what will get them to continue to use the product.
+  
 
-- Technology sophistication - When using a product, a user has certain expectations that the product will provide implicitly. For example, in a banking application, they would expect it to be accurate (high reliability) and it is available at any time the user needs it (high availability). It is important that we identify these expectations and regulations early on along with identifying the features of the product. These facts will impact on the infrastructure architecture for example whether the product will be hosted in cloud or on-premise.
+The 99X well architecture framework describes key concepts, design principles, and architectural best practices for designing and developing a product that can run on any platform. By addressing relevant quality attributes, which is specific to each pillars, the stakeholders can clarify almost every gray areas to come up with right architecture style and patterns. 
 
-- Regulation and Compliance - In every domain there can be regulation and compliance that a product must adhere to. For example when a product is planned to be used in Europe and contains personal identifiable information (PII) then the product should be GDPR compliant. Also of the product is in healthcare domain there are other regulations and compliances that should be adhered to. These will impact on how the features are delivered to the end users.
+  
 
-- Market sense - A product either tries to solve a problem or will provide a solution to a requirement that the users themselves are not aware that they need. In case of trying to solve a problem that the users already aware, it is best to analyze what are the other products already available in the market. It is important to identify in addition to the common features, what are the pain points of the users who are already using an existing product and address them. This will make the product stand apart from the other existing products.
+Further, by answering few fundamental questions lean how to use right architectural style, patterns, and technologies. As well as it will guide to take the right decisions when designing an architecture for a specific requirement. 
 
-- Customer success - Once a product is released to the market, it should be able to solve the problem that the users have and guide them to achieve their goal. The customer success is an important factor in defining the business architecture since it influences the features that will be included. If the features do not support and guide a user in achieving their goals, they will not be happy to continue using the product and move out to another one.
+  
 
-- Budget - In addition to the features provided by the product, it is also important to get a sense of the prices in the market. If the product price is too high than other products already in the market, the users will be discouraged to move into the new product. Therefore, when designing a product, it is best to keep in mind the cost of implementing each features and supporting additional user expectations.
-By identifying the necessary requirement for each aspect of the product, we will be able to come up with a comprehensive business architecture, which will set the tone of the product.
+## Architecture process 
 
+  
 
-###### Driven by
-Product owner, User, Sales, Dev team
+Designing and building a right solution for a specific business requirement is a complex task. One way is to identify clear separation to make it simpler. Having a basic understanding of what needs to consider of each separation, will help to build a most suitable architecture for the complex business requirement. 
 
-###### Impacted personals
-Stakeholders, customers, finances, market, partners, and suppliers
+  
 
-#### Strategic reasons
-Implementing a business architecture can be beneficial is scenarios such as 
-- Legacy modernization, 
-- Globalization, 
-- Regulatory compliance
-- Determining new market and joint venture development
+The architecture of a system describes its non-functional requirements as style, patterns, and concepts. The technologies will describe how to implement functional requirements with addressing non-functional requirements. A proper software architecture and design needs to consider several factors. With 99 X, well architecture framework, we mention them as architecture views. 
 
-#### Key areas
+  
 
-Business Architecture is directly based on business strategy. It is the foundation for subsequent architectures, where it is detailed into various aspects and disciplines. To optimize its value, it is necessary to consider the business from a number of different perspectives. Combining each of those perspectives will help us to fully understand the organization as it exists today, and will give you a better understanding of how it needs to evolve into the future.
+First, we need to have a proper idea of the business needs. What kind of problem that the customer going to be solved. What are the quality attributes that we need to address for the business need. Here, we called it as “Business Architecture”. From this view the 99X well architecture framework looks for the business need of the customer with applying relevant quality attributes. 
 
-There are 4 key areas of business architecture.
+  
 
-##### Organization
+Once we develop the business architecture, need to think of non-functional requirements and functional requirements. Based on those it needs to be identified which architectural style and architectural patterns that full-fill this requirements. To address this the relevant quality attributes will help to identify the parts to consider. Based on 99x well architecture framework, we call this view as “Product Architecture” . 
 
-The organization is the structure of the company that business architecture is being applied to. The organization is made up of business units that combine to represent all functions and departments within the company.
+  
 
-The organizational structure is a comprehensive view of the organizational elements to gain a perspective of the following components.
+As the next view, need to think about the infrastructure that most applicable for our product architecture. Infrastructure are the technologies, which helps to develop functional and non-functional requirements. Based on 99x well-known architecture, we call this view as “Infrastructure Architecture”. 
 
-- Business Units - A business unit is a logical grouping of a set of software services. Typically, business units some of which are strategic business units are focused on geography or a portfolio of products/services, or a customer segment.
-- Locations - As the name suggests location stands for geographic locations. The sites are vital to understanding the focus of each site, the types of customer segments the place serves, the products and services the area focuses on, and the capabilities that are vital will help in developing an understanding of the needs and strengths of each site.
-- Departments - The departments are specialized groups units with specific domain skills that serve critical organizational functions.
-- Roles - A role is a specific type of organizational function where an individual or a group of individuals work on particular responsibilities in pursuit of a business outcome.
+  
 
-##### Capabilities
+Final step is how to make our product to day today running smoothly. To do this we need to address several quality attributes. This view is most important to make the availability, fault tolerance, and smoothly running the product with adding values to the customer. Based on 99x well architecture, we call this view as the “Production Architecture”. 
 
-A business capability is one of the key components of business architecture and is an expression of what a business does and can do. A business capability denotes “What” a business can do, whereas a business process outlines how a particular activity gets done. There are multiple capabilities, each of which is unique.
+  
 
-At an elemental level, a business capability is the encapsulation of the underlying functionality expressed abstractly.
+## Architecture Views 
 
-A capability map can be used to generate visualizations of an organization based on the distinct business capabilities that make up what that organization does. This is generally viewed as the starting point for the business architect as it represents the most fundamental mapping of the business. However, there are a number of different aspects to each capability.
+  
 
-##### Value Streams
+### Business Architecture 
 
-Value streams are one of the most important elements of business architecture. The value stream is depicted as an end-to-end collection of value-adding activities that create an overall result for a customer, stakeholder, or end user.
+ 
 
-In modeling terms, those value-adding activities are represented by value stream stages, each of which creates and adds incremental stakeholder value from one stage to the next.
+ “Why are we building this product?” 
 
-They provide an easily understood visualization of how an organization achieves value through a self-contained set of activities, and as such a map of a single value, the stream can easily contribute to an executive presentation or similar use case.
+“What is the problem that we are trying to solve by building this product?” 
 
-##### Information
+ 
 
-If capabilities represent what an organization does, information is the fuel that drives knowledge and understanding of how a business operates. Information is built on the organization’s data, but for it to be considered information, that data also requires context the business capabilities, processes, decision making, and so on that leverage the data.
+#### Definition 
 
-#### Quality attributes
+When implementing a product, it is important to understand “why” we are building the product and “what is the problem” we are trying to solve. This should also include how the product will be perceived by the users and the market in general. The business architecture of a product will provide answers to these questions. When defining the business architecture, we need to analyze the product from different angles. 
 
-##### Functional Suitability
+ 
 
-This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions. Businesses commonly operate under a functional structure because it groups people who have similar knowledge, and when used in a team environment, helps companies achieve their goals.
+#### Key aspects to analyze about the suggested product 
 
-There are many advantages to employing a functional structure in your business and it allows you to implement ethical, enforceable standards regarding investments and the process within the organization.
+The following aspects have been identified to aid in a much more effective business architecture analysis: 
 
-BFSQ1: What are the constraints that need to be considered for functional suitability?
+ 
 
-- [ ] Performance requirements
-- [ ] Operating constraints
-- [ ] Accuracy and precision of the requirements
-- [ ] Portability
-- [ ] Accessibility
-- [ ] Security
+- User experience 
 
-BFSQ2: What is functional completeness and how can we achieve functional completeness in a business?
+It is vital that we understand the users who will be using the product. Identifying the different personas of users will help the stakeholders identify the features that the product should support as well as how these features should be presented to the users. A user persona will analyze the demographics of a typical user and determine the purpose for which the user will be using the product. It is also important to identify the motivation the user chooses to use this product and what will get them to continue to use the product. 
 
-Functional completeness is the degree to which the set of functions covers all the specified tasks and user objectives in business. Consider the following steps to achieve functional completeness in your system.
+  
 
-- [ ] Identify what process needs to implemented
-- [ ] Analyze the pain points
-- [ ] Conduct a root cause analysis
-- [ ] Design and evaluate
-- [ ] Implement the new process
-- [ ] Evaluate and quantify
+- Technology sophistication 
 
-BFSQ3: What are the quality measurements which can be used to maintain the quality of your product?
+When using a product, a user has certain expectations that the product will provide implicitly. For example, in a banking application, they would expect it to be accurate (high reliability) and available at any time the user needs it (high availability). It is important that we identify these expectations and regulations early on, along with the features of the product. These facts will impact the infrastructure architecture, for example, whether the product will be hosted in the cloud or on-premises. 
 
-- [ ] Performance
-- [ ] Features
-- [ ] Reliability
-- [ ] Conformance
-- [ ] Durability
-- [ ] Serviceability
-- [ ] Perceived quality
+  
 
-##### Usability
+- Regulations and Compliance  
 
-Usability is a measure of how well a specific user in a specific context can use a product/design to achieve a defined goal effectively, efficiently, and satisfactorily. Usability depends on how well its features accommodate users’ needs and contexts. This is one of the keys to the user experience.
+In every domain, there can be regulations and compliance that a product must adhere to. For example, if a product is planned to be used in Europe and contains personally identifiable information (PII), then the product should be GDPR-compliant. Also, if the product is in the healthcare domain, there are other regulations and compliances that should be adhered to. These will impact how the features are delivered to end users. 
 
-BUQ1: How can you increase the usability of your application?
+  
 
-- [ ] Reduction in loading time
-- [ ] Optimize functionality
-- [ ] Ensure consistency
-- [ ] Readability
-- [ ] Error prevention and recovery
-- [ ] Help and documentation
+- Market sense  
 
-BUQ2: Who are the actors that need to be considered to design and improve the usability of the software product?
+A product either tries to solve a problem or will provide a solution to a requirement that the users themselves are not aware of. In the case of trying to solve a problem that the users are already aware of, it is best to analyze what other products are already available on the market. It is important to identify, in addition to the common features, the pain points of the users who are already using an existing product and address them. This will make the product stand out from the other existing products. 
 
-- [ ] Users
-- [ ] Database systems
-- [ ] Clients and servers
-- [ ] Cloud platforms
-- [ ] Devices
+  
 
-##### Compatibility (Integrations, Extensibility)
+- Customer success  
 
-Compatibility is the capacity for two or more systems to work together without having to be altered to do so. Compatible software applications use the same data formats. For example, if image processor applications are compatible, the user should be able to open their image files in either product.
+Once a product is released to the market, it should be able to solve the problems that the users have and guide them to achieve their goal. Customer success is an important factor in defining the business architecture since it influences the features that will be included. If the features do not support and guide a user in achieving their goals, they will not be happy to continue using the product and move on to another one. 
 
-BCQ1: How do you achieve compatibility?
+  
 
-Compatibility is responsible for a software product to test that it works well across different configurations, platforms, versions, and devices based on the user's requirements. It mainly focuses on delivering consistent and high-quality performance. Consider the following to identify compatibility.
+- Budget 
 
-- [ ] Infrastructure compatibility
-- [ ] Operating system compatibility
-- [ ] Software compatibility
-- [ ] Data storage compatibility
-- [ ] 3rd party integration compatibility
-- [ ] Browser compatibility
-- [ ] Devices compatibility
+In addition to the features provided by the product, it is also important to get a sense of the prices in the market. If the product price is too high compared to other products already on the market, users will be discouraged from moving into the new product. Therefore, when designing a product, it is best to keep in mind the cost of implementing each feature and supporting additional user expectations. 
 
-Integrations are responsible for bringing together multiple business systems to operate as a collaborative unit. When we consider business architecture this often refers to software or system integrations. The integration allows us to share information between connected systems and these integrations can vary in their functionality.
+ 
 
-For example, a point of sale (POS) system can connect its customer data to its CRM, or integrations can be requesting information from a website/internal system and exchange their information by sending and receiving information between multiple systems in multiple locations.
+By identifying the necessary requirements for each aspect of the product, we will be able to come up with a comprehensive business architecture, which will set the tone of the product. 
 
-BIQ1: How do you achieve the best use of software integrations?
-Consider the below integration types while designing an integration.
+  
 
-- [ ] Star Integration - the process of developing connections within all software subsystems
-- [ ] Horizontal Integration - method of establishing a system for communication such as message transmission and message monitoring
-- [ ] Vertical Integration - fast and inexpensive option for software unification which develops functional entities for their software systems and vertically syncs them
-- [ ] Common Data Format Integration - help businesses by providing data translation and promoting automation
+#### Driven by 
 
-BIQ2: What are the steps and best practices that can be followed in the software integration process?
+Implementation of a business architecture is conducted with the involvement of the following actors: 
 
-- [ ] Collect definitions, requirements, and specifications
-- [ ] Analyze the information
-- [ ] Develop architecture and management plans
-- [ ] Create the software integration system
-- [ ] Begin using the integration system
-- [ ] Evaluate system performance periodically
+- Product owner 
 
-BIQ3: What are the factors need to be identied for software integrations?
+- User 
 
-- [ ] Data format
-- [ ] Integration pattern
-- [ ] Enhanced authentication and authorization
-- [ ] Testing environment
-- [ ] Audit data
-- [ ] Continuous testing software
-- [ ] Maintain situational awareness
-- [ ] Security
+- Sales 
 
-Extensibility is a measure of the ability to extend a system and the level of effort required to implement the extension. Extensions can be through the addition of new functionality or through modification of existing functionality.
+- Dev team 
 
-The attribute provides for enhancements without impairing existing system functions. For example, Integrated development environments (IDEs) are applications that facilitate the development of other applications and the supported extensions and plugins for the IDEs will allow the users to customize their environment based on their preferences.
+  
 
-BEQ1: Have you identified the extensibility consideration?
+#### Impacted personals 
 
-- [ ] Multitenancy
-- [ ] Multi-Region
-- [ ] Latency
-- [ ] Consistency
-- [ ] Internationalization
-- [ ] Marketing and branding
-- [ ] Geographical regions
+The successful implementation of a business architecture for a product, impacts following actors: 
 
-##### Productization
+-  Stakeholders 
 
-Productization is the strategy of turning an internal business capability into a commercially viable product. It is an area that businesses are more focused on to scale their business, increase revenue, and reduce operational costs. It is the process of converting a core application/service you offer into a product you can implement or market across a larger user base. This makes possible the opportunity for exponential growth.
+- customers 
 
-Productizing an application can lead to new external revenue streams and also the underlying architecture used to build the application can be served as a blueprint even if there are no common end users in which to market a new product and make an entry into the industry. Also, this provides a better framework to maintain the product behavior and the functionality more consistent by evolving the application over time.
+- finances 
 
-BPQ1: What are the factors which need to be considered for productization?
+- market 
 
-- [ ] Branding
-- [ ] Subscription
-- [ ] Licence
-- [ ] Standard
-- [ ] Target market
+- partners 
 
-BPQ2: What are the stages which can be considered for productization process?
+- suppliers 
 
-- [ ] Independent Projects - Executed independently and differ in the budget, technology, and functionality
-- [ ] Project Feature Reuse - Focus on feature reuse across projects
-- [ ] Product Recognition - Shared features between projects and customer specific maintenance
-- [ ] Product Platform - Generic product platform with handing customer requirement as a market requirement
-- [ ] Standardizing Product Platform - Focus on generic product platform and requirements are derived based on the market trends
-- [ ] Customizable Software Product - Standard product with customized layered par focusing on services
-- [ ] Standard Software Product - Generic product for all customers and build for a specific market and completely configurable and structured for subscription based model
+  
 
-BPQ3: What are the challenges in the productization transformation process?
+#### Strategic reasons to implement a Business Architecture 
 
-- [ ] Reuse documentation
-- [ ] Delta analysis and effort estimation
-- [ ] Version proliferation
-- [ ] Architectural drift
-- [ ] Over featuring
-- [ ] Security risks
+We have identified below the key benefits of having a business architecture for a particular business product. 
 
-##### Provision for Known unknowns
+- Legacy modernization 
 
-Known Unknowns are assumptions that we haven’t or can’t validate. Most assumptions identified during business planning start in this category.
+- Globalization 
 
-They can be classified into three types:
+- Regulatory compliance 
 
-- Assumptions that can become known knowns now if they are validated
-- Assumptions that can become known knowns at some point in the future, but not now
-- Assumptions that can’t become known knowns because we can’t control them
+- Determining new market and joint venture development 
 
-Planning for unknown unknowns will reduce development time, and costs and ultimately allow for better product delivery on time and on budget. The known unknown must be identified, along with the event that will trigger the risk mitigation process. These types of risks are discussed early on during the project planning process and the project sponsor and stakeholders confirm and validate the risk, contingency, and response plan.
+  
 
-BKUQ1: What are the gray areas of the product?
+#### Key areas to focus when implementing a business architecture 
 
-- [ ] Technology stack
-- [ ] User load
-- [ ] market growth
-- [ ] Traffic growth
-- [ ] Traffic pattern
-- [ ] Backup plans
-- [ ] Security
+Business architecture is directly based on business strategy. It is the foundation for subsequent architectures, where it is detailed into various aspects and disciplines. To optimize its value, it is necessary to consider the business from a number of different perspectives. Combining each of those perspectives will help us to fully understand the organization as it exists today and will give you a better understanding of how it needs to evolve into the future. 
 
-##### Compliance
+We have identified four key areas of business architecture that need to be carefully evaluated. 
 
-Compliance is an essential and important part of any business, irrespective of what sector the organization is operating in. It refers to following the internal policies or government laws and regulations that the organization is subjected to.
+##### Organization 
 
-Implementing compliance procedures protects your company’s reputational risk and improves your company’s vision and value as well as prevents and detects violations of rules. Failure to follow those compliance requirements can put you at risk of financial fines or legal penalties.
+The organization is the structure of the company that business architecture is being applied to. The organization is made up of business units that combine to represent all functions and departments within the company. 
 
-BCQ1: What are the different types of compliance applicable for your product?
+The organizational structure is a comprehensive view of the organizational elements to gain a perspective on the following components: 
 
-When we consider compliance, regardless of size or the type of the product, compliance is one area that no one should neglect. Each of the below compliance types will affect the product health to some degree and we must make sure to adhere to the latest standards and guidelines.
+- Business Units - A business unit is a logical grouping of a set of software services. Typically, business units, some of which are strategic business units, are focused on geography, a portfolio of products and services, or a customer segment. 
 
-- [ ] Corporate Compliance - following all laws, regulations, standards, and ethical practices that apply to your organization and industry.
-- [ ] Regulatory Compliance - following the local and international laws and regulations that are relevant to its operations
-- [ ] Data compliance - ensuring that the product is correctly and legally collecting, organizing, storing, and managing data.
-- [ ] Human resource compliance - all the business policies and procedures that ensure your organization is operating lawfully and with the welfare of your employees.
-- [ ] Product health and safety compliance - ensure the product health and safety measurements are met.
+- Locations - As the name suggests, location stands for geographic locations. The sites are vital to understanding the focus of each site, the types of customer segments the place serves, the products and services the area focuses on, and the capabilities that are vital to developing an understanding of the needs and strengths of each site. 
 
-BCQ2: What are the compliances and the standards to be followed in your product?
+- Departments - The departments are specialized groups of units with specific domain skills that serve critical organizational functions. 
 
-Compliance standards are sets of rules that an organization is required to follow. To prove that the organization follows the rules, it must have a set of written policies, and it must also create a set of procedures and processes that people must follow as they carry out the policies.
+- Roles - A role is a specific type of organizational function where an individual or a group of individuals work on responsibilities in pursuit of a business outcome. 
 
-Consider using the below compliance standards for your product development as needed.
+  
 
-- [ ] Payment Card Industry Data Security Standard (PCI DSS)
-- [ ] International Organization for Standardization (ISO) standards
-- [ ] General Data Protection Regulation (GDPR)
-- [ ] Federal Information Security Modernization Act (FISMA)
-- [ ] Health Information Technology for Economic and Clinical Health Act (HITECH)
-- [ ] Web content accessibility guidelines (WCAG)
-- [ ] 508 compliance
+##### Capabilities 
 
-### Product Architecture
+A business capability is one of the key components of business architecture and is an expression of what a business does and can do. A business capability denotes “what” a business can do, whereas a business process outlines how a particular activity gets done. There are multiple capabilities, each of which is unique. 
 
-#### Definition
-Product Architecture represents how the functionality of your product is structured into modules and how these modules interact with each other.
-In deriving the product architecture, in addition to the functional requirements you should also consider;
-- Non-functional requirements of your product
-- Technology specifics
-- Integration Points
-- How to manage data and data flows through different modules
+At an elemental level, a business capability is the encapsulation of the underlying functionality expressed abstractly. 
 
-###### Driven by
-Development Team
+A capability map can be used to generate visualizations of an organization based on the distinct business capabilities that make up what that organization does. This is generally viewed as the starting point for the business architect, as it represents the most fundamental mapping of the business. However, there are a number of different aspects to each capability. 
 
-###### Impacted personals
-- Users
-- Operational Team
-- Development Team
+ 
 
-#### Strategic reasons
-Deriving a product architecture will assist you to properly consolidate the functional, non-functional, technical, and operational requirements of your product. This will also provide your Development Team and the Operational Team a design to abide by. Therefore, a proper product architecture provides guidance and compliance during the implementation phase as well as in the maintenance phase for the Development Team and the Operational Team.
+##### Value Streams 
 
-#### Key areas
+Value streams are one of the most important elements of business architecture. The value stream is depicted as an end-to-end collection of value-adding activities that create an overall result for a customer, stakeholder, or end user. 
 
-There are 4 key areas in product architecture
+In modeling terms, those value-adding activities are represented by value stream stages, each of which creates and adds incremental stakeholder value from one stage to the next. 
 
-##### System Decompostion
+They provide an easily understood visualization of how an organization achieves value through a self-contained set of activities, and as a map of a single value, the stream can easily contribute to an executive presentation or similar use case. 
 
-During product architecture, the entire product is normally designed in such a way that it will be decomposed into different layers, components, services, etc.. based on an agreed decomposition strategy.
+  
 
-Systems can be decomposed based on execution context, deployment context, business or domain capabilities. Some software architecture styles such as Multi Tier, MicroServices, event/message driven, queue worker, batch proccesings are defined based on these strategies.
+##### Information 
 
-With these, the system can be planned, developed, deployed and maintained in a more independent and loosely coupled way.
+If capabilities represent what an organization does, information is the fuel that drives knowledge and understanding of how a business operates. Information is built on the organization’s data, but for it to be considered information, that data also requires context-the business capabilities, processes, decision-making, and so on-that leverage the data. 
 
-##### Data
+  
 
-Every software products deal with data and mainly how and where data is to be stored and processed need to be analysed.
+#### Quality attributes to consider when implementing a business architecture 
 
-Relational, Documents, key values, graph and time series are some of the data storing patterns. And proper modeling the data storage and isolation techniques such as normalizations levels, logical partitioning and tenant based isolations are also available.
+ 
 
-Proper data modeling and isolation leads to more cost friendly, performant and secure data management in the product.
+##### Functional Suitability of a business 
 
-##### Communication and interaction
+This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions. Businesses commonly operate under a functional structure because it groups people who have similar knowledge and, when used in a team environment, helps companies achieve their goals. 
 
-The system components should communicate with each other effectively for smoother function of product as a whole. Normally the components are distributed and communicate over the Networks.
+There are many advantages to employing a functional structure in your business, and it allows you to implement ethical, enforceable standards regarding investments and the process within the organization. 
 
-Communication styles such synchronous vs asynchronous and push vs pull based, communication protocol such as http, tcp, rpc, amqp, etc.. data formats like json, binary, soap etc.. and communication based technologies like Rest apis, graphql, web hooks and queue based messaging are some considerations.
+###### Functional completeness in a business 
 
-The right component communication strategy are the main factors for expected responsiveness and scalability of the system.
+Functional completeness is the degree to which the set of functions covers all the specified tasks and user objectives in business. Consider the following steps to achieve functional completeness in your system: 
 
-##### Implementation technologies, tools and practices
+###### Steps to achieve functional completeness in a business 
 
-Software products use technologies for implementation and then tools and practices for proper use of the technologies.
+- Identify what process needs to be implemented 
 
-Right selection of Programming languages in all stack, database technologies, Design and communication patterns, libraries and frameworks, and development tools and plugins are required for efficient delivery, extendability, security and maintainability of the system.
+- Analyze the pain points  
 
-##### Process and Best Practices
+- Conduct a root cause analysis  
 
-Software product architecture should follow a defined processes and best practices for success in the product.
+- Design and evaluate  
 
-Agility in Architecture and designs, frequent reviews, proper technical leaderships (architect role), innovation and continous improvements are key for more maintainable, extendable and sustainable a software product in long run.
+- Implement the new process  
 
-#### Quality attributes
+- Evaluate and quantify 
 
-##### Performance
+  
 
-Performance in product refers to as ability of the product to run on any user activity or scale at any time with expected response time.
+##### Usability of the product in the business 
 
-PPQ1: How do you achieve the performance by design?
-During the product architecture design the performance of the system can be considered in following factors ( caching, support scale horizontally and automatic scale in and down, component proximity, data persistent design, workload isolation/decoupling, component to component )
+Usability is one of the keys to the user experience. It is a measure of how well a specific user in a specific context can use a product or design to achieve a defined goal effectively, efficiently, and satisfactorily. Usability depends on how well its features accommodate users’ needs and contexts. 
 
-- [ ] Reduce Initial loading time
-- [ ] Lower Page response time
-- [ ] Process Large number of items in less time (Ex. How many PDF needs to be generated based on the specific time)
-- [ ] Load certain volume of data without any delay
-- [ ] Keep the expected performance of the product even at high user load.
-- [ ] Make sure long running processes or activities do not affect normal product functionality performance.
-- [ ] Make sure minimal latency during product component to component communication
+ 
 
-PPQ2: How do you achieve the performance by technology?
-Technology selection can mainly effect the performance of the application in following areas.
+ ###### Approaches to increase usability of the application 
 
-- [ ] Reduce initial loding
-- [ ] Lower Page response time
-- [ ] Keep best performance for expected devices
-- [ ] Provide lower processing time
-- [ ] Serve high number of concurrent requests and parallel processing
-- [ ] Identify technology limitations
-- [ ] Identify for Performance and Load benchmarks
+- Reduction in loading time  
 
-PPQ3: How do you achieve the performance by data strategy?
-Proper data modelling and persistent technologies and strategies can influence the performance of the overall software product.
+- Optimize functionality  
 
-- [ ] Reduce data retrieval time
-- [ ] Reduce data writing time
-- [ ] Minimize processing in persistent store
-- [ ] Keep the expected performance during high data volume
+- Ensure consistency  
 
-##### Security and Privacy
+- Readability  
 
-Security of the system gives assurance for confidentiality, integrity and availability of data and system it self from attacks, threats and abuses. And privacy mainly relates to the storing, processing and transferring of personally identifiable data
+- Error prevention and recovery  
 
-SPQ1: How do achive software product security by design
-During the design phase of the system, it is required to focus on following areas for secure product
+- Help and documentation 
 
-- [ ] Protect the Product from unauthorized access to system
-- [ ] Protect the product from unathorized actions, viewing and changing system state
-- [ ] Protect product component and services from attacks, unauthorized consumptions, threats and unavailabilities
-- [ ] Protect secrets, sensitive and personally identifiable informations from unautohrized disclosure
-- [ ] Make sure regional, organizational, domain specific or any other compliance or policy related restrictions can be enforced
+ 
 
-SPQ2: How do achieve software product Security by technology?
+###### Key actors to consider in designing and improving the usability of the product 
 
-- [ ] Protect the product against vulnerabilities from third parties libraries, dependencies and frameworks
-- [ ] Protect product for any vulnerabilities and breaches in more proactive and automated way.
-- [ ] Protect against sensitive, secret data and personally identifiable data misuse and disclosure
-- [ ] Any security or privacy vulnerabilities can be identified and validated in a reactive way.
+- Users  
 
-SPQ3: How do achieve software product security and privacy by data strategy?
+- Database systems  
 
-- [ ] Protect the product from unautorized access and change to the data.
-- [ ] Protect from making data unavaiable
-- [ ] Protect from disclosing sensitive and personally identifiable data.
+- Clients and servers  
 
-##### Reliability
+- Cloud platforms  
 
-Reliability refers to as ability of the software product to function without any issues under agreed condion and period. With the reliability software product architecture need to make sure no functional bugs, down times, performance and security issues.
+- Devices 
 
-RPQ1 : How do achieve software product reliability
+  
 
-- [ ] Minimize the entire system or functionality failures
-- [ ] Reduce the impact to product users when there is a failure.
-- [ ] Increase the level of tolerance during a service or component failure.
-- [ ] Make the system or a service can recover to its normal condition, when there is a failure ( Reduce Recovery time objective)
-- [ ] Make less impact to the data looses during a failure or unavaiability ( Reduce Point Objective)
+##### Compatibility (Integrations, Extensibility) of the product 
 
-##### Functional stability (bug-free)
+Compatibility is the capacity for two or more systems to work together without having to be altered to do so. Compatible software applications use the same data formats. For example, if image processor applications are compatible, the user should be able to open their image files in either product. 
 
-Functional stability is defined as Software should continue to function on different environment and conditions without any failures and with expected quality.
+Compatibility is responsible for testing a software product to ensure that it works well across different configurations, platforms, versions, and devices based on the user's requirements. It mainly focuses on delivering consistent and high-quality performance. 
 
-RPQ1 : How do achieve software product Functional .
+ 
 
-- [ ] Make sure system can run without any failures in varying user loads and behaviours
-- [ ] Make sure system is functional in different user platforms, devices and networks.
-- [ ] Make sure system perform as expected in different data loads
+###### Methods to identify compatibility of a product 
 
-##### Maintainability
+- Infrastructure compatibility  
 
-Effectiveness of a good product architecture is mainy measured by how easily system can be changed for future requirements cost effective way over the product’s life time.
+- Operating system compatibility  
 
-- How well the software product can be modified for continuous changes- Every software product has to evolve over the time after the live roll out and even before it. These changes will come as an improvements and bug fixes based on business, technology and environment changes.
+- Software compatibility  
 
-- How well the product is test automated - as system functionality is more covered with test automation, it is more easier for changes. Mainly test can be automated using unit, integration and UI testing (Test Pyramid).Further some automated code, security, load and performance quality check will be helpful
+- Data storage compatibility  
 
-Design for testability, test first approach to the implementation ( Test driven development), design patterns, more control over resubaility of the system, proper coding practices like SOLID lead to the more maintaiable software product.
+- 3rd party integration compatibility  
 
-### Infrastructure Architecture
+- Browser compatibility  
 
-#### Definition
-The process of ensuring that technological systems and infrastructure are developed to encourage business requirements is known as infrastructure architecture. Well-documented, integrated infrastructure models with the appropriate amount of information and abstraction for various stakeholders are a crucial result of a structured approach to infrastructure architecture. Release and deployment automation, security, validation, and release management are the major areas of attention for infrastructure architecture.
+- Devices compatibility 
 
-In summary, there are essentially 3 different types of infrastructure architectures that can be used with the infrastructure platform to support the product:
-1. On-premise - A single physical server with an operating system, platform, and application is the standard server design.
-2. Cloud - Infrastructure for virtualized servers that distributes virtual machines across many real servers 
-3. Hybrid - Multiple containers distributed across the application platform in a containerized server architecture
+ 
 
-###### Driven by
-When it comes to infrastructure architecture, it depends on how critical the application architecture is. So generally, the architect and development team initiate the product's architecture. And the ownership is going to the Ops team.
-Since we are focusing on the product under the infrastructure architecture we are mainly focussing on
-  1. On-premise infrastructure architecture driven by DevOps, support engineers, network engineers
-  2. Cloud infrastructure architecture driven by Solution architect, dev team
-  3. Cost and pricing
+When compatibility is evaluated and designed in the business architecture phase, there are two main aspects we must focus on.  
 
-###### Impacted personals
-Dev and Ops teams, PO, CTO(product)
-Product CTO - whether to go on on-premise, cloud and cost
+Those are, 
 
-#### Strategic reasons
-This architecture pillar is a main factor in deciding how well your product will serve the purpose in the production environment. The architect should be concerned on this in parallel to the Business architecture and Product architecture stages as well.
-Most common mistake that occurs within software projects is identifying the infrastructure needs at the very end, which could result in waste of resources, cost, and inability to meet the full potential of the application performance.
+-Integrations 
 
-#### Key areas
-Infrastructure architecture depicts the mapping of a logical architecture to a physical resource environment.
-There are 5 key areas to pay attention to.
+-Extensibility 
 
-##### Sizing the planned deployment infrastructure needs
-Infrastructure architecture includes the physical resources necessary to meet the software product requirements. Architect should pay attention to derive a design that implies 
-best use of resources while adhering to the business constraints and non-functional requirements. Successful design of an infrastructure requires past experience, 
-knowledge of systems architecture, domain knowledge and close attention to the non-functional requirements.
+ 
 
-##### Optimize resources & know your compromises
-Due to various factors such as time and cost, we may have to be flexible in our architectural decisions, yet meeting the standards.
-Resource optimization often tied up with compromises which is inevitable where you have to justify against these tradeoffs. Further those points has 
-to be clearly documented and maintained for future references as well.
+###### Integrations in a software product 
 
-##### Identifying the risk
-As we know, during the architecture phase, infrastructure requirements may have gaps, which is why we keep some provisions for such unknowns.
-For an example if you underestimate the actual production usage of the system, your system will not be able to handle the expected load. 
-To avoid that, the infrastructure architecture should continuously evolve based on business needs.
+Integrations are responsible for bringing together multiple business systems to operate as a collaborative unit. When we consider business architecture, this often refers to software or system integrations. Integration allows us to share information between connected systems, and these integrations can vary in their functionality.  
 
-##### Handling deployments
-In order to improve lead time of feature delivery, it is necessary to identify an efficient deployment strategy within the business and product architecture constraints.
-There are well established strategies that you can choose from:
-- Recreate Deployment
-- Blue/Green Deployment
-- Canary Deployment
-- Shadow Deployment
+For example, a point of sale (POS) system can connect its customer data to its CRM, or integrations can request information from a website or internal system and exchange that information by sending and receiving information between multiple systems in multiple locations. 
 
-##### Visualize your infrastructure
-You need to create your infrastructure diagrams, for better visualization of the system. It also helps to discuss the key areas among the stake holders. You 
-can create the draft document from the initial stage, so that the developers will also be aware of the underline infrastructure that their code is being executed. 
+####### Integration types to focus in achieving the compatibility of a software product 
 
-#### Quality attributes
+We can evaluate and utilize the following compatibility type for the software solution for the business while designing the software architecture: 
 
-##### Cost optimization
+- Star Integration - the process of developing connections within all software subsystems  
 
-###### Overview
-In a software product business, typically infrastructure cost become significant. Therefore, we need to come up with various strategies to reduce the total cost of the ownership. 
-###### Questions / Guidance
+- Horizontal Integration - method of establishing a system for communication such as message transmission and message monitoring  
 
-ICOQ1 : Have you identified the minimal infrastructure needs to run your application? 
-- [ ] Minimum hardware requirement
-- [ ] Compatible OS and Platforms
-- [ ] Scalability needs
+- Vertical Integration - fast and inexpensive option for software unification that develops functional entities for their software systems and vertically syncs them  
 
-ICOQ2 : Do you have any SLA to be fulfilled under your user agreement?
-- [ ] Uptime requirements 
-- [ ] Backup requirements 
-- [ ] Support requirements
+- Common Data Format Integration - help businesses by providing data translation and promoting automation 
 
+ 
 
-ICOQ3 : Have you consider and compare alternative options for infrastructure?
+####### Steps and best practices to follow in a software integration process 
 
-- [ ] SWOT of Infrastructure selection
-- [ ] Competitive advantages of choosing the right infrastructure 
-- [ ] Keep track of competitive decisions
+- Collect definitions, requirements, and specifications  
 
+- Analyze the information  
 
-##### Monitoring
+- Develop architecture and management plans  
 
-###### Overview
-Once your application is in production you need visibility over its health. This information will help you to identify issues upfront and troubleshoot them to solve any issues. 
+- Create the software integration system  
 
-###### Questions / Guidance
-IMQ1 : Have you identified monitoring needs of your application?
+- Begin using the integration system  
 
-- [ ] Identify the areas that required constant monitoring
-- [ ] Identify the tools that fulfills them
+- Evaluate system performance periodically 
 
-IMQ2 : Have you identified the people and means of notifying in case of a failure?
+ 
 
-- [ ] Define the critical alarms and events that needs to be configured
-- [ ] Identify the correct audience for each alarms
-- [ ] Prioratize your metrics
+####### Key factors to identify in a software integration 
 
-IMQ3 : Have you identify the logs generated by your application?
+- Data format 
 
-- [ ] Identify all the logs that are generated by the application
-- [ ] Ensure that the logs are persistent
-- [ ] Ensure that the logs are available to access for any investigation
-- [ ] Check the log levels are maintained properly for easy filtering
+- Integration pattern 
 
-IMQ4 : Do you plan to do a trial run to customer alerts?
+- Enhanced authentication and authorization 
 
-- [ ] Ensure alerts are delivered occurred an incident
-- [ ] Ensure the message is clear
-- [ ] Ensure the alerts only sent for valid cause
+- Testing environment 
 
+- Audit data 
 
-##### Security
+- Continuous testing software 
 
-###### Overview
+- Maintain situational awareness 
 
-Once your application is on production, make sure that infrastructure security is properly handled.
+- Security 
 
-###### Questions / Guidance
-ICQ1: Have considered proper security configuration for infrastructure?
-- [ ] Ensure to change default configurations
-- [ ] Ensure to change the default passwords
-- [ ] Conduct a test for infrastructure security
-- [ ] Up to date software versions
+ 
 
+###### Extensibility of a software product   
 
-##### Availability
+Extensibility is a measure of the ability to extend a system and the level of effort required to implement the extension. Extensions can be made through the addition of new functionality or the modification of existing functionality. 
 
-###### Overview
+The attribute provides for enhancements without impairing existing system functions. For example, integrated development environments (IDEs) are applications that facilitate the development of other applications, and the supported extensions and plugins for the IDEs will allow the users to customize their environment based on their preferences. 
 
-Availability is a key factor in ensuring the success of any system. Through careful planning and consideration of the environmental factors that could affect the system.
+ ####### Extensibility considerations for software product compatibility 
 
-###### Questions / Guidance
-IAQ1: Have evaluated your infrastructure for availability?
-- [ ] Check you infrastructure SLAs
-- [ ] Identify potential point of failure of your infrastructure
-- [ ] Ensure that sufficient redundancy in place
+- Multitenancy 
 
+- Multi-Region 
 
-##### Maintainability
+- Latency 
 
-###### Overview
+- Consistency 
 
-Maintainability is one of the key component of the Infrastructure Architecture. Here, we need to consider the reliability of infrastructure and ability to change over its lifetime.
+- Internationalization 
 
-###### Questions / Guidance
+- Marketing and branding 
 
-IMQ1 : Have you consider automates infrastructure provisioning?
+- Geographical regions 
 
-- [ ] Identify an infrastructure automation language
-- [ ] Infrastructure layers and modules
-- [ ] Infrastructure changes review and dry run
+  
 
+##### Productization 
 
-### Production Architecture
+Productization is the strategy of turning an internal business capability into a commercially viable product. It is an area that businesses are more focused on to scale their business, increase revenue, and reduce operational costs. It is the process of converting a core application or service you offer into a product you can implement or market to a larger user base. This makes possible the opportunity for exponential growth. 
 
-#### Definition
-- An architecture view that helps to run the system smoothly and cater system maintenance when the product moves to production.
-- It also supports end users’ day-to-day usage without any other external impact.
-- This architecture view will act as guidance on product troubleshooting and cost optimization where it helps to extend or add necessary improvements to the product.
-Ex:
-    - Adding dashboard
-    - Usage analytics system support
-    - Issues monitoring system
-    - Real time notifications support to inform administrators if any issues are encountered in the production.
+Productizing an application can lead to new external revenue streams, and the underlying architecture used to build the application can also serve as a blueprint, even if there are no common end users in which to market a new product and make an entry into the industry. Also, this provides a better framework to maintain product behavior and functionality consistent by evolving the application over time. 
 
-#### Why
-- Implementing best strategies to keep the system functioning normally, unimpeded by either internal or external exceptions.
-    - Ex
-      - Adding resources utilisation tracking to avoid extra cost charges.
-      - Logs tracking system for system troubleshooting. 
-- Being able to react quickly in an emergency situation so that developers may make any necessary technological changes in a short amount of time
-  - Ex
-    - system’s continuous monitoring facility will inform critical issues through real time notifications to avoid extra charges.
-##### Driven by
-- DevOps Team  
-- Site Reliability Engineers Team
-##### Impacted personals
-- DevOps Team
-- Intrusion Prevention Systems
-- Intrusion Detection Systems
-- Product owners
-- Service Desk 
-#### Key areas
+ ###### Key factors in productization 
 
-#### Quality attributes
+- Branding 
 
-##### Observability (Incident response, Monitoring, Testing)
-- When a product is in production, being able to see its internal status from outside is an utmost important quality of product. As an example when a system is in production ability to see that its usage of RAM is increasing and currently it is at 80% usage will give support staff a heads up for system failure in the future.
+- Subscription 
 
-###### Questions / Guidance
+- License 
 
-POQ1 : When the Product is up and running, you may encounter different types of errors or intrusions. What kind of mechanisms should be used to report incidents?
+- Standard 
 
-POA1 : Nowadays operational staff may not be looking at dashboards, they need a way to be notified automatically whenever an incident happens, Thus we have to multiple ways of incident reporting based on criticality, and whom should get notified also should be decided appropriately. Use one or more following approaches to achieve this.
+- Target market 
 
-- [ ] Establishing an incident reporting system
-- [ ] Implementing Logging
-- [ ] Using System Monitoring
+ 
 
+ ###### Stages in a productization process 
 
-POQ2 : How do you classify your incidents and categorize them?
+- Independent Projects - Executed independently and differ in the budget, technology, and functionality  
 
-POA2 : Following are some of the known incident types widely used. Choose which types are relevent for you.
+- Project Feature Reuse - Focus on feature reuse across projects  
 
-- [ ] Bugs
+- Product Recognition - Shared features between projects and customer-specific maintenance  
+
+- Product Platform - Generic product platform with customer requirements as a market requirement  
+
+- Standardizing Product Platform - Focus on generic product platform, and requirements are derived based on market trends  
+
+- Customizable Software Product - Standard product with customized layers par focusing on services  
+
+- Standard Software Product - Generic product for all customers, built for a specific market, completely configurable, structured for a subscription-based model 
+
+ 
+
+###### Challenges in the productization transformation process 
+
+   
+
+- Reuse documentation  
+
+- Delta analysis and effort estimation  
+
+- Version proliferation  
+
+- Architectural drift  
+
+- Over featuring  
+
+- Security risks 
+
+ 
+
+##### Provision for Known unknowns in a business product 
+
+Known unknowns are assumptions that we haven’t or can’t validate. Most assumptions identified during business planning start in this category. 
+
+  
+
+They can be classified into three types: 
+
+- Assumptions that can become known knowns now if they are validated 
+
+- Assumptions that can become known knowns at some point in the future, but not now 
+
+- Assumptions that can’t become known knowns because we can’t control them 
+
+  
+
+Planning for known unknowns will reduce development time and costs and ultimately allow for better product delivery on time and on budget. The known unknown must be identified, along with the event that will trigger the risk mitigation process. These types of risks are discussed early on during the project planning process, and the project sponsor and stakeholders confirm and validate the risk, contingency, and response plan. 
+
+ 
+
+ ###### Factors to consider as grey areas in the product 
+
+- Technology stack  
+
+- User load  
+
+- market growth  
+
+- Traffic growth  
+
+- Traffic pattern  
+
+- Backup plans  
+
+- Security  
+
+ 
+
+##### Compliance of a business 
+
+Compliance is an essential and important part of any business, irrespective of what sector the organization is operating in. It refers to following the internal policies or government laws and regulations that the organization is subjected to. 
+
+Implementing compliance procedures protects your company’s reputational risk, improves your company’s vision and value, prevents and detects violations of rules. Failure to follow those compliance requirements can put you at risk of financial fines or legal penalties. 
+
+  
+
+###### Different types of compliance applicable for your product 
+
+When we consider compliance, regardless of size or the type of product, compliance is one area that no one should neglect. Each of the below compliance types will affect the product's health to some degree,  and we must make sure to adhere to the latest standards and guidelines. 
+
+  
+
+- Corporate Compliance - following all laws, regulations, standards, and ethical practices that apply to your organization and industry. 
+
+- Regulatory Compliance - following the local and international laws and regulations that are relevant to its operations 
+
+- Data compliance - ensuring that the product is correct and legally collecting, organizing, storing, and managing data. 
+
+- Human resource compliance - all the business policies and procedures that ensure your organization is operating lawfully and with the welfare of your employees. 
+
+- Product health and safety compliance - ensure the product’s health and safety measurements are met. 
+
+  
+
+###### Compliances and the standards to be followed in your product 
+
+Compliance standards are sets of rules that an organization is required to follow. To prove that the organization follows the rules, it must have a set of written policies, and it must also create a set of procedures and processes that people must follow as they carry out the policies. 
+
+Consider using the compliance standards below for your product development as needed. 
+
+- Payment Card Industry Data Security Standard (PCI DSS) 
+
+- International Organization for Standardization (ISO) standards 
+
+- General Data Protection Regulation (GDPR) 
+
+- Federal Information Security Modernization Act (FISMA) 
+
+- Health Information Technology for Economic and Clinical Health Act (HITECH) 
+
+- Web content accessibility guidelines (WCAG) 
+
+- 508 compliance 
+
+ 
+
+#### Quality measurements for a business 
+
+We should focus on how to maintain the quality of the business, and we have identified the following measurements as key points to evaluate the quality of the product. 
+
+- Performance 
+
+- Features 
+
+- Reliability 
+
+- Conformance 
+
+- Durability 
+
+- Serviceability 
+
+- Perceived quality 
+
+####Conclusion 
+
+In concluding notes, implementing a business architecture for a product as the initial step, we are already confident in proceeding to our next step, which is product architecture with all the must-know information.  
+
+We propose answering the following sample questions, which will aid in identifying and implementing a successful business architecture that will lead to a good product. 
+
+ 
+
+BAQ1: What are the constraints that need to be considered for functional suitability? 
+
+- [ ] Performance requirements 
+
+- [] Functional Requirements 
+
+- [ ] Scalability 
+
+- [ ] Operating constraints 
+
+- [ ] Accuracy and precision of the requirements 
+
+- [ ] Portability 
+
+- [ ] Accessibility 
+
+- [ ] Security 
+
+- [ ] Data integrity & accuracy 
+
+ 
+
+BAQ2: How can we achieve functional completeness in a business? 
+
+- [ ] Identify what process needs to implement 
+
+- [ ] Analyze the pain points 
+
+- [ ] Conduct a root cause analysis 
+
+- [ ] Design and evaluate 
+
+- [ ] Implement the new process 
+
+- [ ] Evaluate and quantify 
+
+- [ ] Relevant workforce with skills 
+
+- [ ] Customer-Centric Approach 
+
+-[ ] Continuous Improvement 
+
+ 
+
+ 
+
+BAQ3: What are the quality measurements which can be used to maintain the quality of your product? 
+
 - [ ] Performance 
-- [ ] Downtime
-- [ ] Hacking attempts
-- [ ] Resource utilization
 
-POQ3 : What kind of information should we be able to monitor in a system?
+- [ ] Features 
 
-POA3 : There are many parameters that can be monitored in a system. These could range from user and activity based matrices to resource consumtions. Select the matrices that you target to implement in your system.
+- [ ] Reliability 
 
-- [ ] No of users active in the system and from what regions
-- [ ] What are the user activities mostly done
-- [ ] Resource utilization against time
-- [ ] Suspicious users 
-- [ ] Blocked user attempts
+- [ ] Conformance 
 
+- [ ] Durability 
 
-POQ4 : What should be considered when testing a system in production?
+- [ ] Serviceability 
 
-POA4 : Since this is about the production system. Anything that has a negative impact on the user should be avoided. Following list contains some of the main points to consider.
+- [ ] Perceived quality 
 
-- [ ] Downtime should be adhering to the SLA agreements
-- [ ] Should not negatively impact user experience (ex -performance issues)
-- [ ] Test data should not persist in the production database.
+- [] Security 
 
+ 
 
-POQ5 : Considering all the above points since we have multiple ways of knowing the status of the product, what should be considered when we log incidents?
+BAQ4: How can you increase the usability of your application?  
 
-POA5 : Incident report should be easy to understand and adhere to the governance. Following below points will help you to achieve this.
+- [ ] Reduction in loading time  
 
-- [ ] Structure
-- [ ] Information
-- [ ] Compliance
-- [ ] Performance
-- [ ] classifications
+- [ ] Optimize functionality  
 
+- [ ] Ensure consistency  
 
-When designing the system we should have these in mind to have access points to support the observability of the product. Not only that but When configuring the server also we should give attention to these.
+- [ ] Readability  
 
-##### Cost Optimization
+- [ ] Error prevention and recovery  
 
-- Cost optimization of a product applies on multiple levels and thereby it implies reducing the total cost of ownership.
+- [ ] Help and documentation 
 
-###### Questions / Guidance
+- [ ] User centered design 
 
-PCOQ1 : When a product is in production, What are the things that impact production cost?
+- [ ] Define clear objectives 
 
-PCOA1 : Following points indicate the main cost factors of a production system.
+- [ ] Consistent & responsive design  
 
-- [ ] Processing Power
-- [ ] Disk Space
-- [ ] Network usage
+- [] Understand user needs, goals and behaviors 
 
+ 
 
-PCOQ2 : How can we reduce the cost of a product in production?
+BAQ5: Who are the actors that need to be considered to design and improve the usability of the software product? 
 
-PCOA2 : There are many ways we can reduce the cost of production. Starting from the business architecture all architectural points will have an impact on this. Following pointers will help you to decide whats best suited for your product while optimising the cost.
+- [ ] Users 
 
-- [ ] Way of scaling
-- [ ] Regions
-- [ ] Having server utilization monitoring
-- [ ] Shared resourcing
-- [ ] Backup retention
-- [ ] Data retention and moving into tiers.
-- [ ] Proper network configurations
-- [ ] Transfer data in proper formats.
-- [ ] Caching
+- [ ] Database systems 
 
+- [ ] Clients and servers 
 
+- [ ] Cloud platforms 
 
-##### Troubleshooting
+- [ ] Devices 
 
-- When there is a production issue, it's highly critical that we have the ability to respond and resolve it in an efficient manner.
+- [ ] dev/design/testers, po 
 
-###### Questions / Guidance
+ 
 
-PTQ1 : What do we need to respond quickly to a production issue?
+BAQ6: How do you achieve compatibility?  
 
-PTA1 : Production system should have followings to respond quickly to a production issue.
+- [ ] Infrastructure compatibility  
 
-- [ ] Proper logs
-- [ ] Way to reproduce the issue
-- [ ] Way to apply the patch
+- [ ] Operating system compatibility  
 
+- [ ] Software compatibility  
 
-PTQ2 : What do you mean by proper logs?
+- [ ] Data storage compatibility  
 
-PTA2 : In order to troubleshoot a production issue and find its course logs will be the first place someone can check. Following attributes in a log will help support staff.
+- [ ] 3rd party integration compatibility  
 
-- [ ] Proper Structure
-- [ ] Timestamp
-- [ ] Stack trace
-- [ ] Log Classification
-- [ ] User action flow
+- [ ] Browser compatibility  
 
+- [ ] Devices compatibility  
 
-PTQ3 : What can be improper information in a log?
+   
 
-PTA3 : Mainly with GDPR personally identified information should not be logged.
+BAQ7: How do you achieve the best use of software integrations?  
 
-PTQ4 : What should we think when reproducing an issue in production?
+Consider the below integration types while designing an integration.  
 
-PTA4 : Since we are talking about a production system we should be carefull about negatively impacting user experience. Hence, paying attention to following items will help. 
+- [ ] Star Integration - the process of developing connections within all software subsystems  
 
-- [ ] Should not interfere with actual user actions
-- [ ] Test data should not persist in the production database
+- [ ] Horizontal Integration - method of establishing a system for communication such as message transmission and message monitoring  
 
-PTQ5 : How fast should we resolve a production issue?
+- [ ] Vertical Integration - fast and inexpensive option for software unification which develops functional entities for their software systems and vertically syncs them  
 
-PTA5 : It depends on the SLA s we have in place with the system with respective to the priority of the issue.
+- [ ] Common Data Format Integration - help businesses by providing data translation and promoting automation  
 
+   
 
-##### Governance
+BAQ8: What are the steps and best practices that can be followed in the software integration process?  
 
-- Governance is the ability of the system to adhere and comply to regulations defined by legal and industry standards.
+- [ ] Collect definitions, requirements, and specifications  
 
-###### Questions / Guidance
+- [] Identify Integration Points 
 
-PGQ1 : What are the type of compliance we should think about in production.
+- [] Select Integration Tools and Platforms: 
 
-PGA1 : There are many compliances that software development has to adhere and following are few examples that you should consider based on the business. 
+- [ ] Analyze the information  
 
-- [ ] GDPR
-- [ ] Performance Compliance
-- [ ] Reliability Compliance
+- [ ] Develop architecture and management plans  
 
-PGQ2 : Other than above compliances can there be separate agreements that we have to adhere in production?
+- [ ] Create the software integration system  
 
-PGA2 : Yes based on the business requirement there can be deferent types of agreements that we have to adhere in production. Some of the common type of agreements are listed here.
+- [ ] Begin using the integration system  
 
-- [ ] SLA
-- [ ] Change Management Agreement
-- [ ] Risk Management
-- [ ] Infrastructure Agreements
+- [ ] Evaluate system performance periodically  
 
+- [] Testing 
 
-## Quality Attributes Definitions
+- [] User Training 
 
-### Functional Suitability (ISO/ISE 25010, refer)
+- []  
 
-(This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions)
+   
 
-### Usability
+BAQ9: What are the factors that need to be identified for software integrations?  
 
-(Quality of the user’s experience when interacting with Product)
+- [] Business Objectives 
 
-### Extensibility | Agility
+- [ ] Integration Scope 
 
-(The design needs to be agile enough to incorporate future growth, i.e. Provision for known unknowns)
+- [ ] Data format  
 
-### Compatibility (Integrations)
+- [ ] Integration pattern  
 
-(Ability to seamlessly integrate with 3rd party systems.)
+- [ ] Enhanced authentication and authorization  
 
-### Productization
+- [ ] Testing environment  
 
-(Ability to convert a customer specific to a general product. (white labeling))
+- [ ] Audit data  
 
-### Performance
+- [ ] Continuous testing software  
 
-(shows the response of the system to performing certain actions for a certain period)
+- [ ] Maintain situational awareness  
 
-### Efficiency
+- [ ] Security 
 
-(It is measured in terms of time required to complete any task given to the system.)
+- [] User Workflows 
 
-### Security
+- [] Performance Expectations 
 
-(Security is responsible for the ability of the system to reduce the likelihood of malicious or accidental actions as well as the possibility of theft or loss of information. This can be measure at many levels e.g. Product, Infrastructure.)
+- [] Cost and Resource Estimates 
 
-### Privacy
+- [] Monitoring and Maintenance 
 
-(Ability of the system to cater to Data Subjects, Controllers and Authorities requirements)
+ 
 
-### Reliability
+ BAQ10: Have you identified the extensibility consideration?  
 
-(Ability of the system to continue to operate under defined conditions (Resilience, fault tolerance, availability))
+- [ ] Multitenancy  
 
-### Functional stability
+- [ ] Multi-Region  
 
-(The ability of the system to be able to run smoothly over an extended period of time. Ensure the functionality of the system able to recover in the most efficient way.)
+- [ ] Latency  
 
-### Maintainability
+- [ ] Consistency  
 
-(The level of efficiency at with which a system can be modified)
+- [ ] Internationalization  
 
-### Cost optimization
+- [ ] Marketing and branding  
 
-(This refers to the optimization of cost at various levels and thereby reducing the Total Cost of Ownership)
+- [ ] Geographical regions 
 
-### Governance (regulations related, compliance)
+ 
 
-(The ability of the system to adhere and comply to regulations defined by legal and industry standards)
+BAQ11: What are the factors which need to be considered for productization?  
 
-### Availability
+- [ ] Branding  
 
-(The degree at which the system is able to serve its intended purpose)
+- [ ] Subscription  
 
-### Observability (Incident response, Monitoring, Testing)
+- [ ] License  
 
-(Ability to record and log the internal state of the system and infrastructure and respond to incidents in an optimal manner.)
+- [ ] Standard  
 
-### Troubleshooting (Supportability?)
+- [ ] Target market 
 
-(The ability to respond and resolve incidents in an efficient manner. Ability of the system to provide information helpful for identifying and resolving issues when it fails (1st line of support to hotfix))
+- [] Adaptability to Market Changes 
+
+- [] Competitive Analysis 
+
+- [] Update and Maintenance Plan 
+
+- [] Legal Considerations 
+
+ 
+
+BAQ12: What are the stages which can be considered for productization process?  
+
+- [ ] Independent Projects - Executed independently and differ in the budget, technology, and functionality  
+
+- [ ] Project Feature Reuse - Focus on feature reuse across projects  
+
+- [ ] Product Recognition - Shared features between projects and customer specific maintenance  
+
+- [ ] Product Platform - Generic product platform with handing customer requirement as a market requirement  
+
+- [ ] Standardizing Product Platform - Focus on generic product platform and requirements are derived based on the market trends  
+
+- [ ] Customizable Software Product - Standard product with customized layered par focusing on services  
+
+- [ ] Standard Software Product - Generic product for all customers and build for a specific market and completely configurable and structured for subscription-based model  
+
+   
+
+BAQ13: What are the challenges in the productization transformation process?  
+
+- [ ] Reuse documentation  
+
+- [ ] Delta analysis and effort estimation  
+
+- [ ] Version proliferation  
+
+- [ ] Architectural drift  
+
+- [ ] Over featuring  
+
+- [ ] Security risks 
+
+- [] Market Fit 
+
+- [] Time-to-Market 
+
+- [] Adaptability to Change 
+
+- [] Technology Compatibility 
+
+ 
+
+BAQ14: What are the gray areas of the product?  
+
+- [ ] Technology stack  
+
+- [ ] User load  
+
+- [ ] market growth  
+
+- [ ] Traffic growth  
+
+- [ ] Traffic pattern  
+
+- [ ] Backup plans  
+
+- [ ] Security 
+
+- [] Competitors  
+
+- [] Adoption Rate 
+
+ - [] Customer Retention 
+
+-  [] Evolving User Needs 
+
+- [] Global Expansion 
+
+- [] Technology Trends 
+
+ 
+
+BAQ15: What are the different types of compliance applicable for your product? 
+
+- [ ] Corporate Compliance - following all laws, regulations, standards, and ethical practices that apply to your organization and industry. 
+
+- [ ] Regulatory Compliance - following the local and international laws and regulations that are relevant to its operations 
+
+- [ ] Data compliance - ensuring that the product is correctly and legally collecting, organizing, storing, and managing data. 
+
+- [ ] Human resource compliance - all the business policies and procedures that ensure your organization is operating lawfully and with the welfare of your employees. 
+
+- [ ] Product health and safety compliance - ensure the product health and safety measurements are met. 
+
+ 
+
+BAQ16: What are the compliances and the standards to be followed in your product? 
+
+Consider using the compliance standards below for your product development as needed. 
+
+- [ ] Payment Card Industry Data Security Standard (PCI DSS) 
+
+- [ ] International Organization for Standardization (ISO) standards 
+
+- [ ] General Data Protection Regulation (GDPR) 
+
+- [ ] Federal Information Security Modernization Act (FISMA) 
+
+- [ ] Health Information Technology for Economic and Clinical Health Act (HITECH) 
+
+- [ ] Web content accessibility guidelines (WCAG) 
+
+- [ ] 508 compliances 
+
+ 
+
+ 
+
+### Product Architecture 
+
+ “How is the functionality of the product structured to modules?”  
+
+“How the modules interact with achieve higher values?” 
+
+ 
+
+#### Definition 
+
+Product architecture represents how the functionality of your product is structured into modules and how these modules interact with each other.   
+
+In deriving the product architecture, functional requirements are focused mainly. In addition to functional requirements the following key points should be considered as well. 
+
+- Non-functional requirements of your product 
+
+- Technology specifics 
+
+- Integration Points 
+
+- How to manage data and data flows through different modules 
+
+  
+
+#### Driven by 
+
+Development Team 
+
+ 
+
+#### Impacted personals 
+
+- Users 
+
+- Operational Team 
+
+- Development Team 
+
+  
+
+#### Strategic reasons to implement a Product Architecture 
+
+We have identified below the key benefits of having a product architecture for a particular business product.    
+
+ 
+
+- Assist in proper consolidation of functional, non-functional and operational requirements of the product.  
+
+- Provides the development team and operational team with a design to abide by.  
+
+- Provides guidance and compliance during the implementation phase and maintenance phase for the development and operational teams. 
+
+  
+
+#### Key areas to focus when implementing a product architecture   
+
+We have identified four key areas of product architecture that need to be carefully evaluated.  
+
+ 
+
+##### System Decomposition 
+
+During product architecture, the entire product is normally designed in such a way that it will be decomposed into different layers, components, services, etc., based on an agreed-upon decomposition strategy.  
+
+Systems can be decomposed based on execution context, deployment context, business, or domain capabilities. Some software architecture styles, such as multi-tier, microservices, event/message-driven, queue worker, and batch processing, are defined based on these strategies.  
+
+With these, the system can be planned, developed, deployed, and maintained in a more independent and loosely coupled way.  
+
+ 
+
+##### Data 
+
+All software products deal with data, and mainly how and where data is to be stored and processed needs to be analyzed.  
+
+Relationships, documents, key values, graphs, and time series are some of the data-storage patterns. And proper modeling of data storage and isolation techniques such as normalization levels, logical partitioning, and tenant-based isolations are also available.  
+
+Proper data modeling and isolation lead to more cost-friendly, performant, and secure data management in the product.  
+
+  
+
+##### Communication and interaction 
+
+The system components should communicate with each other effectively for a smoother function of the product as a whole. Normally, the components are distributed and communicated over networks.  
+
+Communication styles such as synchronous vs. asynchronous and push vs. pull-based, communication protocols such as http, tcp, rpc, amqp, etc., data formats like JSON, binary, soap, etc., and communication-based technologies like Rest APIs, graphql, web hooks, and queue-based messaging are some considerations.  
+
+The right component communication strategy is one of the main factors in the expected responsiveness and scalability of the system.  
+
+  
+
+##### Implementation technologies, tools and practices 
+
+  
+
+Software products use technologies for implementation and then tools and practices for proper use of the technologies.  
+
+The right selection of programming languages in all stacks, database technologies, design and communication patterns, libraries and frameworks, and development tools and plugins are required for efficient delivery, extendibility, security, and maintainability of the system. 
+
+  
+
+##### Process and Best Practices 
+
+ Software product architecture should follow defined processes and best practices for success in the product.  
+
+Agility in architecture and design, frequent reviews, proper technical leadership (architect role), innovation, and continuous improvements are key to making a software product more maintainable, extendable, and sustainable in the long run.  
+
+ 
+
+#### Quality attributes to consider when implementing a product architecture   
+
+At the end of this chapter, we have presented a questionnaire, which is a great aid in designing a successful product architecture. Try answering and completing all the checkpoints in covering the quality attributes of your product.   
+
+ 
+
+##### Performance of the product 
+
+Performance in product refers to the ability of the product to run on any user activity or scale at any time with expected response time. 
+
+During the product architecture design the performance of the system can be considered in the following factors. 
+
+- caching  
+
+- support scale horizontally and automatic scale in and down  
+
+- component proximity  
+
+- data persistent design  
+
+- workload isolation/decoupling  
+
+- component to component    
+
+ 
+
+Technology selection can also mainly affect the performance of the application. Proper data modeling and persistent technologies and strategies can influence the performance of the overall software product as well. 
+
+ 
+
+##### Security and Privacy of the product 
+
+  
+
+Security of the system gives assurance for confidentiality, integrity, and availability of data and the system itself from attacks, threats, and abuses. Privacy mainly relates to the storage, processing, and transfer of personally identifiable data.  
+
+  
+
+##### Reliability of the product 
+
+ 
+
+Reliability refers to the ability of the software product to function without any issues under agreed-upon conditions and periods. With the reliability of the software product architecture, we need to make sure there are no functional bugs, downtimes, performance issues, or security issues.   
+
+  
+
+##### Functional stability (bug-free) of the product 
+
+  
+
+Functional stability is defined as software that should continue to function in different environments and conditions without any failures and with the expected quality.   
+
+   
+
+##### Maintainability of the product 
+
+  
+
+The effectiveness of a good product architecture is mainly measured by how easily the system can be changed for future requirements in a cost-effective way over the product’s life.  
+
+- How well the software product can be modified for continuous changes: Every software product has to evolve over time after the live rollout and even before it. These changes will come as improvements and bug fixes based on business, technology, and environmental changes.  
+
+- How well the product is test-automated: as system functionality is more covered by test automation, it is easier to make changes. Mainly, tests can be automated using unit, integration, and UI testing (Test Pyramid). Further, some automated code, security, load, and performance quality checks will be helpful.  
+
+Design for testability, a test-first approach to implementation (test-driven development), design patterns, more control over the reusability of the system, and proper coding practices like SOLID lead to a more maintainable software product.  
+
+ 
+
+#### Conclusion 
+
+In concluding notes, while implementing a product architecture for a business we design identified points in business architecture phase into our software product.  
+
+We propose answering the following sample questions and completing each point, which will aid in identifying and implementing a successful product architecture that will lead to a good product. 
+
+ 
+
+PAQ1: How do you achieve performance by design?  
+
+- [ ] Reduce Initial loading time  
+
+- [ ] Lower Page response time  
+
+- [ ] Process Large number of items in less time (Ex. How many PDF needs to be generated based on the specific time)  
+
+- [ ] Load certain volume of data without any delay  
+
+- [ ] Keep the expected performance of the product even at high user load.  
+
+- [ ] Make sure long running processes or activities do not affect normal product functionality performance.  
+
+- [ ] Make sure minimal latency during product component to component communication 
+
+ 
+
+PAQ2: How do you achieve performance by technology? 
+
+- [ ] Reduce initial Loding 
+
+- [ ] Lower Page response time  
+
+- [ ] Keep best performance for expected devices  
+
+- [ ] Provide lower processing time  
+
+- [ ] Serve high number of concurrent requests and parallel processing  
+
+- [ ] Identify technology limitations  
+
+- [ ] Identify for Performance and Load benchmarks 
+
+ 
+
+PAQ3: How do you achieve performance by data strategy? 
+
+- [ ] Reduce data retrieval time  
+
+ - [ ] Reduce data writing time  
+
+ - [ ] Minimize processing in persistent store  
+
+ - [ ] Keep the expected performance during high data volume 
+
+ 
+
+PAQ4: How do achieve software product security? 
+
+- [ ] Protect the Product from unauthorized access to system  
+
+- [ ] Protect the product from unauthorized actions, viewing and changing system state  
+
+- [ ] Protect product component and services from attacks, unauthorized consumptions, threats and unavailability  
+
+- [ ] Protect secrets, sensitive and personally identifiable information from unauthorized disclosure  
+
+- [ ] Make sure regional, organizational, domain specific or any other compliance or policy related restrictions can be enforced 
+
+ 
+
+PAQ5: How do achieve software product Security by technology? 
+
+- [ ] Protect the product from unauthorized access and change to the data 
+
+- [ ] Protect from making data unavailable 
+
+- [ ] Protect from disclosing sensitive and personally identifiable data 
+
+ 
+
+PAQ6: How do achieve software product security and privacy by data strategy?   
+
+- [ ] Protect the product from unauthorized access and change to the data 
+
+- [ ] Protect from making data unavailable  
+
+- [ ] Protect from disclosing sensitive and personally identifiable data 
+
+ 
+
+PAQ7: How do achieve software product reliability? 
+
+- [ ] Minimize the entire system or functionality failures  
+
+- [ ] Reduce the impact on product users when there is a failure 
+
+- [ ] Increase the level of tolerance during a service or component failure 
+
+- [ ] Make the system or a service can recover to its normal condition, when there is a failure (Reduce Recovery time objective)  
+
+- [ ] Make less impact to the data loses during a failure or unavailability (Reduce Point Objective) 
+
+ 
+
+PAQ8: How do achieve software product Functional?   
+
+- [ ] Make sure system can run without any failures in varying user loads and behaviors  
+
+- [ ] Make sure the system is functional in different user platforms, devices and networks.  
+
+- [ ] Make sure system perform as expected in different data loads 
+
+ 
+
+### Infrastructure Architecture 
+
+  
+
+#### Definition 
+
+Infrastructure architecture refers to the process of designing and developing technological systems and infrastructure that align with business requirements. This entails creating well-documented, integrated infrastructure models that cater to various stakeholders' needs. The aim is to achieve seamless release and deployment automation, security, validation, and release management. 
+
+  
+
+There are three primary types of infrastructure architectures that can be adopted to support a software product: 
+
+On-Premise Architecture: 
+
+Single physical server setup with an operating system, platform, and application. 
+
+Driven by DevOps, support engineers, and network engineers. 
+
+Cloud Architecture: 
+
+Virtualized servers hosted in the cloud, distributing virtual machines across multiple physical servers. 
+
+Driven by solution architects and development teams. 
+
+Hybrid Architecture: 
+
+Involves a containerized server architecture with multiple containers distributed across the application platform. 
+
+A combination of on-premise and cloud elements. 
+
+ 
+
+  
+
+###### Driven by 
+
+When it comes to infrastructure architecture, it depends on how critical the application architecture is. So generally, the architect and development team initiate the product's architecture. And the ownership is going to the Ops team. 
+
+Since we are focusing on the product under the infrastructure architecture we are mainly focussing on 
+
+  1. On-premise infrastructure architecture driven by DevOps, support engineers, network engineers 
+
+  2. Cloud infrastructure architecture driven by Solution architect, dev team 
+
+  3. Cost and pricing 
+
+  
+
+###### Impacted personals 
+
+Dev and Ops teams, PO, CTO(product) 
+
+Product CTO - whether to go on on-premise, cloud and cost 
+
+  
+
+#### Strategic reasons 
+
+This architecture pillar is a main factor in deciding how well your product will serve the purpose in the production environment. The architect should be concerned on this in parallel to the Business architecture and Product architecture stages as well. 
+
+Most common mistake that occurs within software projects is identifying the infrastructure needs at the very end, which could result in waste of resources, cost, and inability to meet the full potential of the application performance. 
+
+  
+
+#### Key areas 
+
+Infrastructure architecture depicts the mapping of a logical architecture to a physical resource environment. 
+
+There are 5 key areas to pay attention to. 
+
+  
+
+##### Sizing the planned deployment infrastructure needs 
+
+Infrastructure architecture includes the physical resources necessary to meet the software product requirements. Architect should pay attention to derive a design that implies  
+
+best use of resources while adhering to the business constraints and non-functional requirements. Successful design of an infrastructure requires past experience,  
+
+knowledge of systems architecture, domain knowledge and close attention to the non-functional requirements. 
+
+  
+
+##### Optimize resources & know your compromises 
+
+Due to various factors such as time and cost, we may have to be flexible in our architectural decisions, yet meeting the standards. 
+
+Resource optimization often tied up with compromises which is inevitable where you have to justify against these tradeoffs. Further those points has  
+
+to be clearly documented and maintained for future references as well. 
+
+  
+
+##### Identifying the risk 
+
+As we know, during the architecture phase, infrastructure requirements may have gaps, which is why we keep some provisions for such unknowns. 
+
+For an example if you underestimate the actual production usage of the system, your system will not be able to handle the expected load.  
+
+To avoid that, the infrastructure architecture should continuously evolve based on business needs. 
+
+  
+
+##### Handling deployments 
+
+In order to improve lead time of feature delivery, it is necessary to identify an efficient deployment strategy within the business and product architecture constraints. 
+
+There are well established strategies that you can choose from: 
+
+- Recreate Deployment 
+
+- Blue/Green Deployment 
+
+- Canary Deployment 
+
+- Shadow Deployment 
+
+  
+
+##### Visualize your infrastructure 
+
+You need to create your infrastructure diagrams, for better visualization of the system. It also helps to discuss the key areas among the stake holders. You  
+
+can create the draft document from the initial stage, so that the developers will also be aware of the underline infrastructure that their code is being executed.  
+
+  
+
+#### Quality attributes 
+
+  
+
+##### Cost optimization 
+
+  
+
+###### Overview 
+
+In a software product business, typically infrastructure costs become significant. Therefore, we need to come up with various strategies to reduce the total cost of ownership.  
+
+###### Questions / Guidance 
+
+  
+
+ICOQ1 : Have you identified the minimal infrastructure needs to run your application?  
+
+- [ ] Minimum hardware requirement 
+
+- [ ] Compatible OS and Platforms 
+
+- [ ] Scalability needs 
+
+- [ ] Network requirements (bandwidth, latency) 
+
+ 
+
+ICOQ2 : Do you have any SLA to be fulfilled under your user agreement? 
+
+- [ ] Uptime requirements  
+
+- [ ] Backup and disaster recovery requirements 
+
+- [ ] Support requirements 
+
+- [ ] Data security and privacy compliance   
+
+  
+
+ICOQ3 : Have you considered and compared alternative options for infrastructure? 
+
+  
+
+- [ ] SWOT of Infrastructure selection 
+
+- [ ] Competitive advantages of choosing the right infrastructure  
+
+- [ ] Keep track of competitive decisions 
+
+- [ ] Cost-benefit analysis of different infrastructure choices 
+
+- [ ] Future scalability potential of each infrastructure option 
+
+ 
+
+ 
+
+##### Monitoring 
+
+  
+
+###### Overview 
+
+Once your application is in production you need visibility over its health. This information will help you to identify issues upfront and troubleshoot them to solve any issues.  
+
+  
+
+###### Questions / Guidance 
+
+IMQ1 : Have you identified monitoring needs of your application? 
+
+  
+
+- [ ] Identify the areas that required constant monitoring 
+
+- [ ] Identify the tools that fulfills them 
+
+- [ ] Define specific metrics to be monitored (e.g., response time, error rate).  
+
+- [ ] Determine acceptable thresholds for each monitored metric.  
+
+- [ ] Consider scalability and resource utilization metrics. 
+
+  
+
+IMQ2 : Have you identified the people and means of notifying in case of a failure? 
+
+  
+
+- [ ] Define the critical alarms and events that needs to be configured 
+
+- [ ] Identify the correct audience for each alarm (e.g., development team, operations team).   
+
+- [ ] Prioritize your metrics based on their impact and urgency. 
+
+  
+
+IMQ3 : Have you identified the logs generated by your application? 
+
+  
+
+- [ ] Identify all the logs that are generated by the application 
+
+- [ ] Ensure that the logs are persistent and stored securely 
+
+- [ ] Ensure that the logs are available to access for any investigation 
+
+- [ ] Check that log levels are appropriately defined for easy filtering and debugging. 
+
+  
+
+IMQ4 : Do you plan to do a trial run to customer alerts? 
+
+  
+
+- [ ] Ensure alerts are delivered when incidents occur 
+
+- [ ] Craft clear and concise alert messages with relevant information 
+
+- [ ] Define alert escalation procedures for different severity levels.   
+
+- [ ] Test alerts in a controlled environment before deploying to customers. 
+
+- [ ] Review and refine the list of valid causes for triggering alerts. 
+
+ 
+
+ 
+
+##### Security 
+
+  
+
+###### Overview 
+
+  
+
+Once your application is in production, make sure that infrastructure security is properly handled. 
+
+  
+
+###### Questions / Guidance 
+
+ICQ1: Have considered proper security configuration for infrastructure? 
+
+ 
+
+- [ ] Ensure to change default configurations 
+
+- [ ] Ensure to change the default passwords 
+
+- [ ] Conduct a security assessment or penetration testing on your infrastructure 
+
+- [ ] Keep software versions up to date 
+
+ 
+
+ICQ3: What steps do you take to ensure secure user authentication and access? 
+
+ 
+
+- [ ] Enforce strong password policies (complexity, expiration, etc.).  
+
+- [ ] Implement multi-factor authentication (MFA) for all users.  
+
+- [ ] Use single sign-on (SSO) to centralize and simplify access control.  
+
+- [ ] Regularly review and revoke unnecessary user access rights.  
+
+- [ ] Monitor and log user authentication and access events.  
+
+- [ ] Implement role-based access control (RBAC) for granular permissions. 
+
+  
+
+  
+
+##### Availability 
+
+  
+
+###### Overview 
+
+  
+
+Availability is a key factor in ensuring the success of any system. Through careful planning and consideration of the environmental factors that could affect the system. 
+
+  
+
+###### Questions / Guidance 
+
+IAQ1: Have you evaluated your infrastructure for availability? 
+
+- [ ] Check your infrastructure SLAs 
+
+- [ ] Identify potential point of failure within your infrastructure 
+
+- [ ] Ensure that sufficient redundancy in place 
+
+ 
+
+IAQ2: What redundancy measures have you implemented in your infrastructure? 
+
+- [ ] Implemented failover systems to seamlessly switch to backup resources in case of failures. 
+
+- [ ] Set up load balancing to distribute traffic and workloads across multiple servers. 
+
+- [ ] Utilized backup power solutions (UPS, generators) to maintain operation during power outages. 
+
+- [ ] Employed geographical redundancy by hosting services in multiple data centers or regions. 
+
+ 
+
+IAQ3: How have you ensured that your system can handle varying levels of traffic and demand? 
+
+- [ ] Designed your architecture to easily scale horizontally by adding more servers or resources. 
+
+- [ ] Implemented auto-scaling mechanisms to dynamically allocate resources based on real-time demand. 
+
+- [ ] Conducted load testing to identify performance bottlenecks and optimize resource allocation. 
+
+- [ ] Monitored system performance during peak and off-peak times to adjust resources accordingly. 
+
+ 
+
+ 
+
+IAQ4: How do you validate the effectiveness of your availability measures? 
+
+- [ ] Conducting regular availability tests to simulate various failure scenarios and assess system response. 
+
+- [ ] Using chaos engineering techniques to intentionally introduce failures and observe the system's behavior. 
+
+- [ ] Reviewing post-incident analyses to identify areas for improvement and implement necessary changes. 
+
+- [ ] Involving cross-functional teams in tabletop exercises to practice coordinated responses to availability challenges. 
+
+ 
+
+  
+
+##### Maintainability 
+
+  
+
+###### Overview 
+
+  
+
+Maintainability is one of the key components of Infrastructure Architecture. Here, we need to consider the reliability of infrastructure and ability to change over its lifetime. 
+
+  
+
+###### Questions / Guidance 
+
+  
+
+IMQ1 : Have you considered automates infrastructure provisioning? 
+
+  
+
+- [ ] Identify an infrastructure automation language 
+
+- [ ] Infrastructure layers and modules 
+
+- [ ] Infrastructure changes review and dry run 
+
+  
+
+  
+
+### Production Architecture 
+
+  
+
+#### Definition 
+
+- An architecture view that helps to run the system smoothly and cater system maintenance when the product moves to production. 
+
+- It also supports end users’ day-to-day usage without any other external impact. 
+
+- This architecture view will act as guidance on product troubleshooting and cost optimization where it helps to extend or add necessary improvements to the product. 
+
+Ex: 
+
+    - Adding dashboard 
+
+    - Usage analytics system support 
+
+    - Issues monitoring system 
+
+    - Real time notifications support to inform administrators if any issues are encountered in the production. 
+
+  
+
+#### Why 
+
+- Implementing best strategies to keep the system functioning normally, unimpeded by either internal or external exceptions. 
+
+    - Ex 
+
+      - Adding resources utilisation tracking to avoid extra cost charges. 
+
+      - Logs tracking system for system troubleshooting.  
+
+- Being able to react quickly in an emergency situation so that developers may make any necessary technological changes in a short amount of time 
+
+  - Ex 
+
+    - system’s continuous monitoring facility will inform critical issues through real time notifications to avoid extra charges. 
+
+##### Driven by 
+
+- DevOps Team   
+
+- Site Reliability Engineers Team 
+
+##### Impacted personals 
+
+- DevOps Team 
+
+- Intrusion Prevention Systems 
+
+- Intrusion Detection Systems 
+
+- Product owners 
+
+- Service Desk  
+
+#### Key areas 
+
+  
+
+#### Quality attributes 
+
+  
+
+##### Observability (Incident response, Monitoring, Testing) 
+
+- When a product is in production, being able to see its internal status from outside is an utmost important quality of the product. As an example, when a system is in production, the ability to see that its usage of RAM is increasing and currently it is at 80% usage will give support staff a heads up for system failure in the future. 
+
+  
+
+###### Questions / Guidance 
+
+  
+
+POQ1 : When the Product is up and running, you may encounter different types of errors or intrusions. What kind of mechanisms should be used to report incidents? 
+
+  
+
+POA1 : Nowadays operational staff may not be looking at dashboards, they need a way to be notified automatically whenever an incident happens, thus we have to multiple ways of incident reporting based on criticality, and who should get notified also should be decided appropriately. Use one or more of the following approaches to achieve this. 
+
+  
+
+- [ ] Establishing an incident reporting system 
+
+- [ ] Implementing Logging 
+
+- [ ] Using System Monitoring 
+
+  
+
+  
+
+POQ2 : How do you classify your incidents and categorize them? 
+
+  
+
+POA2 : Following are some of the known incident types widely used. Choose which types are relevent for you. 
+
+  
+
+- [ ] Bugs 
+
+- [ ] Performance  
+
+- [ ] Downtime 
+
+- [ ] Hacking attempts 
+
+- [ ] Resource utilization 
+
+  
+
+POQ3 : What kind of information should we be able to monitor in a system? 
+
+  
+
+POA3 : There are many parameters that can be monitored in a system. These could range from user and activity-based matrices to resource consumptions. Select the matrices that you target to implement in your system. 
+
+  
+
+- [ ] No of users active in the system and from what regions 
+
+- [ ] What are the user activities mostly done 
+
+- [ ] Resource utilization against time 
+
+- [ ] Suspicious users  
+
+- [ ] Blocked user attempts 
+
+  
+
+  
+
+POQ4 : What should be considered when testing a system in production? 
+
+  
+
+POA4 : Since this is about the production system. Anything that has a negative impact on the user should be avoided. The following list contains some of the main points to consider. 
+
+  
+
+- [ ] Downtime should be adhering to the SLA agreements 
+
+- [ ] Should not negatively impact user experience (ex -performance issues) 
+
+- [ ] Test data should not persist in the production database. 
+
+  
+
+  
+
+POQ5 : Considering all the above points since we have multiple ways of knowing the status of the product, what should be considered when we log incidents? 
+
+  
+
+POA5 : Incident report should be easy to understand and adhere to the governance. Below points will help you to achieve this. 
+
+  
+
+- [ ] Structure 
+
+- [ ] Information 
+
+- [ ] Compliance 
+
+- [ ] Performance 
+
+- [ ] classifications 
+
+  
+
+  
+
+When designing the system, we should have these in mind to have access points to support the observability of the product. Not only that but when configuring the server also we should give attention to these. 
+
+  
+
+##### Cost Optimization 
+
+  
+
+- Cost optimization of a product applies on multiple levels and thereby it means reducing the total cost of ownership. 
+
+  
+
+###### Questions / Guidance 
+
+  
+
+PCOQ1 : When a product is in production, what are the things that impact production cost? 
+
+  
+
+PCOA1 : Following points indicate the main cost factors of a production system. 
+
+  
+
+- [ ] Processing Power 
+
+- [ ] Disk Space 
+
+- [ ] Network usage 
+
+  
+
+  
+
+PCOQ2 : How can we reduce the cost of a product in production? 
+
+  
+
+PCOA2 : There are many ways we can reduce the cost of production. Starting from the business architecture all architectural points will have an impact on this. The following pointers will help you to decide what's best suited for your product while optimizing the cost. 
+
+  
+
+- [ ] Way of scaling 
+
+- [ ] Regions 
+
+- [ ] Having server utilization monitoring 
+
+- [ ] Shared resourcing 
+
+- [ ] Backup retention 
+
+- [ ] Data retention and moving into tiers. 
+
+- [ ] Proper network configurations 
+
+- [ ] Transfer data in proper formats. 
+
+- [ ] Caching 
+
+  
+
+  
+
+  
+
+##### Troubleshooting 
+
+  
+
+- When there is a production issue, it's highly critical that we have the ability to respond and resolve it in an efficient manner. 
+
+  
+
+###### Questions / Guidance 
+
+  
+
+PTQ1 : What do we need to respond quickly to a production issue? 
+
+  
+
+PTA1 : Production system should have the following to respond quickly to a production issue. 
+
+  
+
+- [ ] Proper logs 
+
+- [ ] Way to reproduce the issue 
+
+- [ ] Way to apply the patch 
+
+  
+
+  
+
+PTQ2 : What do you mean by proper logs? 
+
+  
+
+PTA2 : To troubleshoot a production issue and find its course logs will be the first place someone can check. The following attributes in a log will help support staff. 
+
+  
+
+- [ ] Proper Structure 
+
+- [ ] Timestamp 
+
+- [ ] Stack trace 
+
+- [ ] Log Classification 
+
+- [ ] User action flow 
+
+  
+
+  
+
+PTQ3 : What can be improper information in a log? 
+
+  
+
+PTA3 : Mainly with GDPR personally identified information should not be logged. 
+
+  
+
+PTQ4 : What should we think when reproducing an issue in production? 
+
+  
+
+PTA4 : Since we are talking about a production system, we should be careful about negatively impacting user experience. Hence, paying attention to the following items will help.  
+
+  
+
+- [ ] Should not interfere with actual user actions 
+
+- [ ] Test data should not persist in the production database 
+
+  
+
+PTQ5 : How fast should we resolve a production issue? 
+
+  
+
+PTA5 : It depends on the SLA s we have in place with the system with respect to the priority of the issue. 
+
+  
+
+  
+
+##### Governance 
+
+  
+
+- Governance is the ability of the system to adhere and comply to regulations defined by legal and industry standards. 
+
+  
+
+###### Questions / Guidance 
+
+  
+
+PGQ1 : What are the types of compliance we should think about in production. 
+
+  
+
+PGA1 : There are many compliances that software development has to adhere to, and the following are few examples that you should consider based on the business. 
+
+  
+
+- [ ] GDPR 
+
+- [ ] Performance Compliance 
+
+- [ ] Reliability Compliance 
+
+  
+
+PGQ2 : Other than the above compliances can there be separate agreements that we have to adhere to in production? 
+
+  
+
+PGA2 : Yes, based on the business requirement there can be deferent types of agreements that we have to adhere to in production. Some of the common types of agreements are listed here. 
+
+  
+
+- [ ] SLA 
+
+- [ ] Change Management Agreement 
+
+- [ ] Risk Management 
+
+- [ ] Infrastructure Agreements 
+
+  
+
+  
+
+## Quality Attributes Definitions 
+
+  
+
+### Functional Suitability (ISO/ISE 25010, refer) 
+
+  
+
+(This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions) 
+
+  
+
+### Usability 
+
+  
+
+(Quality of the user’s experience when interacting with Product) 
+
+  
+
+### Extensibility | Agility 
+
+  
+
+(The design needs to be agile enough to incorporate future growth, i.e. Provision for known unknowns) 
+
+  
+
+### Compatibility (Integrations) 
+
+  
+
+(Ability to seamlessly integrate with 3rd party systems.) 
+
+  
+
+### Productization 
+
+  
+
+(Ability to convert a customer specific to a general product. (white labeling)) 
+
+  
+
+### Performance 
+
+  
+
+(shows the response of the system to performing certain actions for a certain period) 
+
+  
+
+### Efficiency 
+
+  
+
+(It is measured in terms of time required to complete any task given to the system.) 
+
+  
+
+### Security 
+
+  
+
+(Security is responsible for the ability of the system to reduce the likelihood of malicious or accidental actions as well as the possibility of theft or loss of information. This can be measure at many levels e.g. Product, Infrastructure.) 
+
+  
+
+### Privacy 
+
+  
+
+(Ability of the system to cater to Data Subjects, Controllers and Authorities requirements) 
+
+  
+
+### Reliability 
+
+  
+
+(Ability of the system to continue to operate under defined conditions (Resilience, fault tolerance, availability)) 
+
+  
+
+### Functional stability 
+
+  
+
+(The ability of the system to be able to run smoothly over an extended period of time. Ensure the functionality of the system able to recover in the most efficient way.) 
+
+  
+
+### Maintainability 
+
+  
+
+(The level of efficiency at with which a system can be modified) 
+
+  
+
+### Cost optimization 
+
+  
+
+(This refers to the optimization of cost at various levels and thereby reducing the Total Cost of Ownership) 
+
+  
+
+### Governance (regulations related, compliance) 
+
+  
+
+(The ability of the system to adhere and comply to regulations defined by legal and industry standards) 
+
+  
+
+### Availability 
+
+  
+
+(The degree at which the system is able to serve its intended purpose) 
+
+  
+
+### Observability (Incident response, Monitoring, Testing) 
+
+  
+
+(Ability to record and log the internal state of the system and infrastructure and respond to incidents in an optimal manner.) 
+
+  
+
+### Troubleshooting (Supportability?) 
+
+  
+
+(The ability to respond and resolve incidents in an efficient manner. Ability of the system to provide information helpful for identifying and resolving issues when it fails (1st line of support to hotfix)) 
+
+ 
