@@ -338,7 +338,7 @@ Integrations are responsible for bringing together multiple business systems to 
 
 For example, a point of sale (POS) system can connect its customer data to its CRM, or integrations can request information from a website or internal system and exchange that information by sending and receiving information between multiple systems in multiple locations. 
 
-####### Integration types to focus in achieving the compatibility of a software product 
+###### Integration types to focus in achieving the compatibility of a software product 
 
 We can evaluate and utilize the following compatibility type for the software solution for the business while designing the software architecture: 
 
@@ -352,7 +352,7 @@ We can evaluate and utilize the following compatibility type for the software so
 
  
 
-####### Steps and best practices to follow in a software integration process 
+###### Steps and best practices to follow in a software integration process 
 
 - Collect definitions, requirements, and specifications  
 
@@ -368,7 +368,7 @@ We can evaluate and utilize the following compatibility type for the software so
 
  
 
-####### Key factors to identify in a software integration 
+###### Key factors to identify in a software integration 
 
 - Data format 
 
@@ -394,7 +394,7 @@ Extensibility is a measure of the ability to extend a system and the level of ef
 
 The attribute provides for enhancements without impairing existing system functions. For example, integrated development environments (IDEs) are applications that facilitate the development of other applications, and the supported extensions and plugins for the IDEs will allow the users to customize their environment based on their preferences. 
 
- ####### Extensibility considerations for software product compatibility 
+ ###### Extensibility considerations for software product compatibility 
 
 - Multitenancy 
 
@@ -572,7 +572,7 @@ We should focus on how to maintain the quality of the business, and we have iden
 
 - Perceived quality 
 
-####Conclusion 
+#### Conclusion 
 
 In concluding notes, implementing a business architecture for a product as the initial step, we are already confident in proceeding to our next step, which is product architecture with all the must-know information.  
 
@@ -584,7 +584,7 @@ BAQ1: What are the constraints that need to be considered for functional suitabi
 
 - [ ] Performance requirements 
 
-- [] Functional Requirements 
+- [ ] Functional Requirements 
 
 - [ ] Scalability 
 
@@ -620,7 +620,7 @@ BAQ2: How can we achieve functional completeness in a business?
 
 - [ ] Customer-Centric Approach 
 
--[ ] Continuous Improvement 
+- [ ] Continuous Improvement 
 
  
 
@@ -642,7 +642,7 @@ BAQ3: What are the quality measurements which can be used to maintain the qualit
 
 - [ ] Perceived quality 
 
-- [] Security 
+- [ ] Security 
 
  
 
@@ -666,7 +666,7 @@ BAQ4: How can you increase the usability of your application?
 
 - [ ] Consistent & responsive design  
 
-- [] Understand user needs, goals and behaviors 
+- [ ] Understand user needs, goals and behaviors 
 
  
 
@@ -722,9 +722,9 @@ BAQ8: What are the steps and best practices that can be followed in the software
 
 - [ ] Collect definitions, requirements, and specifications  
 
-- [] Identify Integration Points 
+- [ ] Identify Integration Points 
 
-- [] Select Integration Tools and Platforms: 
+- [ ] Select Integration Tools and Platforms: 
 
 - [ ] Analyze the information  
 
@@ -736,17 +736,17 @@ BAQ8: What are the steps and best practices that can be followed in the software
 
 - [ ] Evaluate system performance periodically  
 
-- [] Testing 
+- [ ] Testing 
 
-- [] User Training 
+- [ ] User Training 
 
-- []  
+
 
    
 
 BAQ9: What are the factors that need to be identified for software integrations?  
 
-- [] Business Objectives 
+- [ ] Business Objectives 
 
 - [ ] Integration Scope 
 
@@ -766,13 +766,13 @@ BAQ9: What are the factors that need to be identified for software integrations?
 
 - [ ] Security 
 
-- [] User Workflows 
+- [ ] User Workflows 
 
-- [] Performance Expectations 
+- [ ] Performance Expectations 
 
-- [] Cost and Resource Estimates 
+- [ ] Cost and Resource Estimates 
 
-- [] Monitoring and Maintenance 
+- [ ] Monitoring and Maintenance 
 
  
 
@@ -806,13 +806,13 @@ BAQ11: What are the factors which need to be considered for productization?
 
 - [ ] Target market 
 
-- [] Adaptability to Market Changes 
+- [ ] Adaptability to Market Changes 
 
-- [] Competitive Analysis 
+- [ ] Competitive Analysis 
 
-- [] Update and Maintenance Plan 
+- [ ] Update and Maintenance Plan 
 
-- [] Legal Considerations 
+- [ ] Legal Considerations 
 
  
 
@@ -848,13 +848,13 @@ BAQ13: What are the challenges in the productization transformation process?
 
 - [ ] Security risks 
 
-- [] Market Fit 
+- [ ] Market Fit 
 
-- [] Time-to-Market 
+- [ ] Time-to-Market 
 
-- [] Adaptability to Change 
+- [ ] Adaptability to Change 
 
-- [] Technology Compatibility 
+- [ ] Technology Compatibility 
 
  
 
@@ -874,17 +874,17 @@ BAQ14: What are the gray areas of the product?
 
 - [ ] Security 
 
-- [] Competitors  
+- [ ] Competitors  
 
-- [] Adoption Rate 
+- [ ] Adoption Rate 
 
- - [] Customer Retention 
+- [ ] Customer Retention 
 
--  [] Evolving User Needs 
+- [ ] Evolving User Needs 
 
-- [] Global Expansion 
+- [ ] Global Expansion 
 
-- [] Technology Trends 
+- [ ] Technology Trends 
 
  
 
@@ -1146,7 +1146,7 @@ PAQ2: How do you achieve performance by technology?
 
 PAQ3: How do you achieve performance by data strategy? 
 
-- [ ] Reduce data retrieval time  
+ - [ ] Reduce data retrieval time  
 
  - [ ] Reduce data writing time  
 
