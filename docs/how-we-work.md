@@ -1,6 +1,6 @@
 ---
-id: arthitecture-process
-title: Arthitecture Process
+id: architecture-process
+title: Architecture Process
 ---
 
 
