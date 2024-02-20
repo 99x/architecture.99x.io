@@ -1,7 +1,7 @@
 module.exports = {
   docs: [
     'architecture-at-99x',
-    'arthitecture-process',
+    'architecture-process',
     '99x-well-architected-framework',
     {
       type: 'category',
